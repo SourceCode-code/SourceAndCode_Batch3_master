@@ -1,1 +1,37 @@
-hello my name is siddhant
+email :  ---
+
+// ------------------------------------- GIT GITHUB -----------------------------------------
+
+// data ---> everything that you create is data 
+
+//  a person never alone 
+// always there will be a team -->
+
+// data share -->  (pendrive , airdrops , hardisk , ssd , nearby , buletooth ) -- // 1 tb 
+
+// risk anasilys 
+//pendrive ,  -- >  1) dameage Chances 2) data lreakage 3)virus introduction , 4)misuse of data
+airdrops , --->
+hardisk , 
+ssd , 
+nearby  -->   you need device very close 
+, buletooth --> 
+
+---------------------------------------- we need something which is risk free and we can share our data -------------
+
+// git      ----> version control software // 
+// github   ----> hosting platform (website)  // 90 (microsoft)
+// bitbucket ---->hosting platform (website)  // 10 (atasin)
+
+
+----------------------------------------    GIT _ GIT HUB                                                             --------
+
+
+account creation --- > github
+
+
+local env -- > the work you do on your own laptop which is yet avaiable on git hub
+Repo --> repostitory --> working direcotry --> its a conatiner or storage in which your code is stored 
+
+
+

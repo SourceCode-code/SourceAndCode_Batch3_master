@@ -35,3 +35,10 @@ Repo --> repostitory --> working direcotry --> its a conatiner or storage in whi
 
 
 
+Assigment 
+
+open your git hub account --> send me your email --- and send me your username -->
+create one repo --> vivek --> hello.txt --> hello my name is vivek
+share your repo url ---> 
+
+

@@ -62,12 +62,12 @@ git clone --> how to use it --> git clone "url"
 
 git add    -->
 
-1) git add    ---> how to use git add path of file  ( used to as only a single at a time )
-2) git add .  --->
-
+1) git add    ---> how to use  -->git add path of file  ( used to as only a single at a time )
+2) git add .  ---> how to use -->git add . (used to add all the files in your local to stagging area)
 
 git commit --->
 
+3)git commit ---> how to  use --> git commit -m "message"
 
 git push -->
 

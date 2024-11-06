@@ -73,11 +73,9 @@ git push -->
 
 git push origin main  --- > git push origin main --> pushes the changes to github
 
+hello world
 
-
-
-
-
+commands to make repo
 git init                    ---   initalizes git in your folder 
 git add README.md           ---   this adds a readme file in your repo 
 git commit -m "first commit"---  your repo statgging  

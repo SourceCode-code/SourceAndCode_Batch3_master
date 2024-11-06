@@ -69,7 +69,10 @@ git commit --->
 
 3)git commit ---> how to  use --> git commit -m "message"
 
-git push -->
+git push -->  
+
+git push origin main  --- > git push origin main --> pushes the changes to github
+
 
 
 

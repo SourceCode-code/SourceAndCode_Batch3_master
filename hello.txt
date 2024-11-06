@@ -85,3 +85,14 @@ git push -u origin main  -- push all your your changes to your github
 
 
 hello 
+
+
+Assigment
+1) github session.txt
+2)write the command in your langauge the learnt github commands 
+
+push this changes to you repo 
+
+link (---)
+
+

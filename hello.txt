@@ -62,7 +62,7 @@ git clone --> how to use it --> git clone "url"
 
 git add    -->
 
-1) git add    ---> how to use git add path of file
+1) git add    ---> how to use git add path of file  ( used to as only a single at a time )
 2) git add .  --->
 
 

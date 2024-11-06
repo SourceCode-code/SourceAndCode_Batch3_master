@@ -10,7 +10,7 @@ email :  ---
 // data share -->  (pendrive , airdrops , hardisk , ssd , nearby , buletooth ) -- // 1 tb 
 
 // risk anasilys 
-//pendrive ,  -- >  1) dameage Chances 2) data lreakage 3)virus introduction , 4)misuse of data
+//pendrive ,  -- >  1) dameage Chances 2) data leakage 3)virus introduction , 4)misuse of data
 airdrops , --->
 hardisk , 
 ssd , 
@@ -41,4 +41,43 @@ open your git hub account --> send me your email --- and send me your username -
 create one repo --> vivek --> hello.txt --> hello my name is vivek
 share your repo url ---> 
 
+------------------------------------------------------------------------------------
 
+todays topic -->
+use of various git commands 
+
+git clone  ----> this commands clones your repo in your local pc 
+git add    ---->
+git add .  ---->
+git commit -m "" --->
+git push origin ---->
+git checkout --->
+
+
+
+// commands --->
+
+
+git clone --> how to use it --> git clone "url"
+
+git add    -->
+
+1) git add    ---> how to use git add path of file
+2) git add .  --->
+
+
+git commit --->
+
+
+git push -->
+
+
+
+
+
+git init                    ---   initalizes git in your folder 
+git add README.md           ---   this adds a readme file in your repo 
+git commit -m "first commit"---  your repo statgging  
+git branch -M main          ---  treat your main repo as master 
+git remote add origin https://github.com/SourceCode-code/demo-repo.git ---  adds a origin to your file gives your git a address or location where the data will be shown on github
+git push -u origin main  -- push all your your changes to your github

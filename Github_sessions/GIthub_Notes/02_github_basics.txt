@@ -1,7 +1,21 @@
 // commands to learn todays
 
 //git push origin main ---  local
-// git pull origin main  --->
-//git status
+// git pull origin main  ---> gets all the updated changes form your github to your local device
+// best pratice --->
+
+ always when you open your repo or project before anything hit the following command 
+ git pull origin main 
+
+
+//git status --> shows you the current status of the files
+
+when you make changes it and hit git status it shows -->     modified:   path of file
+
+
 //git checkout filename 
 //git checkout -f
+
+
+git clone ---> ( when you have get the repo for the first time  in your device   )
+pull origin -->(   you already have the repo but you want the latest changes )  

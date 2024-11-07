@@ -12,6 +12,8 @@
 
 when you make changes it and hit git status it shows -->     modified:   path of file
 
+when you hit git add . --->    it will be in green color indictaiong your files have been pueshed to stagging    modified:   Github_sessions/GIthub_Notes/01_github_basics.txt
+    
 
 //git checkout filename 
 //git checkout -f

@@ -1,0 +1,7 @@
+// commands to learn todays
+
+//git push origin main ---  local
+// git pull origin main  --->
+//git status
+//git checkout filename 
+//git checkout -f

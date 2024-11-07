@@ -50,8 +50,8 @@ git clone  ----> this commands clones your repo in your local pc
 git add    ---->
 git add .  ---->
 git commit -m "" --->
-git push origin ---->
-git checkout --->
+git push origin main ---->
+
 
 
 

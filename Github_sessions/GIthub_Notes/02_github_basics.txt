@@ -21,3 +21,9 @@ when you hit git add . --->    it will be in green color indictaiong your files 
 
 git clone ---> ( when you have get the repo for the first time  in your device   )
 pull origin -->(   you already have the repo but you want the latest changes )  
+
+
+
+
+
+git status ---> ()

@@ -1,0 +1,10 @@
+
+
+git status -->  shows us exactly  on which env or where the file is 
+git pull origin main-->  gets you the latest changes form your repo to your local
+
+ls --> you get the name of all your folder in your repo
+git log  --> gets your the log of all the commits 
+git log -p -number of commits to see --> give you the log of that specific number of commits 
+git diff    ---> compares your local file  with the last commit made 
+git diff --staged   -->

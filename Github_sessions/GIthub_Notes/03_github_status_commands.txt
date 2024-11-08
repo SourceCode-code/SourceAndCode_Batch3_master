@@ -7,4 +7,5 @@ ls --> you get the name of all your folder in your repo
 git log  --> gets your the log of all the commits 
 git log -p -number of commits to see --> give you the log of that specific number of commits 
 git diff    ---> compares your local file  with the last commit made 
-git diff --staged   -->
+git diff --staged   --> compares your added file with your last commit 
+

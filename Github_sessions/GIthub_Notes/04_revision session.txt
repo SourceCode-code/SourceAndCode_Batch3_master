@@ -1,0 +1,73 @@
+// git -->
+// github--->
+// how to create a repositiory-->
+// how to  push your changes---> 
+// git baisc --->
+
+-
+/// installtion 
+
+1 git --> install git in your pc -- done 
+
+2 creta your own repo -- done 
+
+3 pushing first time in repo -->
+
+hit 
+-----------------------------------------------------------------------------------------
+git init ---> we have to hit git command to get the git config in your folder
+
+git add .  --> addeds all the file to your empty repo --> staging area 
+
+git commit -m "first commit"  --> local 
+
+git branch -M main
+
+git remote add origin https://github.com/SourceCode-code/git_revision.git -- adds your repo address
+
+git push origin main ---> pushes your changes form local repo head to git hub
+
+
+---------------------------------------------------------------------------------------
+
+if your already working on a created repo you just want to push the new changes 
+
+git add . ----->  this add all your or all the new changes to the stagging area
+git commit -m "measasge"--->  this commands commits the files to local repo head 
+git push origin ---> this command  pushes your changes to git hub
+
+
+-------------------------------------------------------------------------------------
+
+how to clone your repo in your local 
+
+git clone "urlof the repo"---> this command creates a clone of your repo in your working directory
+
+
+
+
+---------------------------------------------------------------------------------------
+
+basic commands to use in git 
+
+git pull origin main ---> this gets the new updated changes form your repo to your working directory
+
+// best pratcie for this command --> whenever you start your work first hit commands git pull origin main
+
+
+git add .--> adds all the  new changes in your repo 
+git add file name --> it only adds a single file 
+
+git checkout  filename ---> this command gets you the last commited changes 
+git checkout -f --> this commands takes all file file to last commited changes 
+
+// commands to check you current status of git file 
+git status --> shows you which env your file is in currently 
+git diff -->  shows you the actual changes that you have done 
+git log --> give you the detail informartion about the commits and all the changes 
+git log -p -how many changes --> this commands show the number commits for the given number  
+git diff --staged--> compares your current added file with the past commit
+
+// 
+
+git commands

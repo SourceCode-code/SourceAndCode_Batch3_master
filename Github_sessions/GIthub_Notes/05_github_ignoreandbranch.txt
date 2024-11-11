@@ -1,0 +1,24 @@
+// .gitigonre -->
+
+// login --> 
+//  fill correct user username --> username 
+// fill correct passwword--> password 
+when you click on the login button-->
+
+----------------------------
+your dashboard should visible 
+
+
+
+-------------------------------------------------------
+
+what the use of .gitingore file -->
+
+to avoid sending push sesitive data we used .gitigonre --> 
+--------------------------------------------------------------------------
+it igonres all the data that is present in particluar file 
+
+
+
+
+// barnching --> 

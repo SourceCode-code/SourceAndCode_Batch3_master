@@ -25,4 +25,10 @@ it igonres all the data that is present in particluar file
 // what is barches in git --> when we create a excat copy of your main branch to make your changes kts called as barching 
 
 
+// commands for craeting a branch a new branch --> git checkout -b Branch name 
+
+// command to trvale between branchs --> git checkout  barnchname 
+
+
+
 

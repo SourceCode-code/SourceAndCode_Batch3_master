@@ -21,5 +21,8 @@ it igonres all the data that is present in particluar file
 
 
 
-// barnching --> 
-barnching
+// barnching -->  
+// what is barches in git --> when we create a excat copy of your main branch to make your changes kts called as barching 
+
+
+

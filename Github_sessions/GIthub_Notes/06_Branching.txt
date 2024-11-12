@@ -1,0 +1,38 @@
+//workflow 
+
+// why is branching needed in git github --> 
+
+inorder to keep our master branch stable we use branching 
+
+
+// what is the actual flow in that we follow 
+
+main ---> newbranch ---> do the changes or task in that branch --> push your code in specifc branch 
+
+create a pull request -->  then a review happens of the changes done or the work done --> merged
+
+
+
+//-------------------------------------------------------------------------------
+
+
+how to create barnch 
+
+1) create branch through ui 
+
+2) create terminal commands 
+// command to create a new branch
+
+git checkout -b BaranchName -->
+
+
+// how to switch to a different 
+
+
+// rules to follow while travelling form one branch to another 
+1) make sure all your changes are ethier pushed to your barnch 
+2)make sure all your changes are stashed
+
+git checkout branchname
+
+

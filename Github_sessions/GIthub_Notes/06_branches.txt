@@ -38,6 +38,18 @@ how to create barnch
 2) git switch branchname
 
 
+// to check how many branches are there 
+
+1) git branch --> shows us how many branches are present
+
+
+----------------------------------------------------------------------------
+
+how to delete a branch 
+
+1) delete through ui
+2) git branch -D branchnam
+
 
 
 

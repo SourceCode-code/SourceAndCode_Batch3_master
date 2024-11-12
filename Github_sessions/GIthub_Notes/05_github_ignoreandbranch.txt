@@ -19,13 +19,18 @@ to avoid sending push sesitive data we used .gitigonre -->
 it igonres all the data that is present in particluar file 
 
 
+what is braching ---> 
+actual flow ---> 
+
+
+
 
 
 // barnching -->  
 // what is barches in git --> when we create a excat copy of your main branch to make your changes kts called as barching 
 
 
-// commands for craeting a branch a new branch --> git checkout -b Branch name 
+// commands for craeting a branch a new branch --> git checkout -b Branchname 
 
 // command to trvale between branchs --> git checkout  barnchname 
 

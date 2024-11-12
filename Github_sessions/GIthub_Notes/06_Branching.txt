@@ -28,14 +28,17 @@ how to create barnch
 
 
 // how to switch to a different 
-
-
 // rules to follow while travelling form one branch to another 
 1) make sure all your changes are ethier pushed to your barnch 
 2)make sure all your changes are stashed
 
-git checkout branchname
+// to swicth between branch 
+
+1) git checkout branchname
+2) git switch branchname
 
 
-git
+
+
+
 

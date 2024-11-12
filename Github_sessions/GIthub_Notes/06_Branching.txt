@@ -23,7 +23,8 @@ how to create barnch
 2) create terminal commands 
 // command to create a new branch
 
-git checkout -b BaranchName -->
+1) git checkout -b BaranchName -->
+2) git branch branchname
 
 
 // how to switch to a different 
@@ -35,4 +36,6 @@ git checkout -b BaranchName -->
 
 git checkout branchname
 
+
+git
 

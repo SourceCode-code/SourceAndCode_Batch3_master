@@ -48,7 +48,7 @@ how to create barnch
 how to delete a branch 
 
 1) delete through ui
-2) git branch -D branchnam
+2) git branch -D branchname
 
 
 

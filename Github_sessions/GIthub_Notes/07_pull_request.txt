@@ -1,0 +1,22 @@
+// how to raise a pull request ?
+
+// what is a pull request ?
+// its a request raised by us for mergeing the changes to required barnch 
+
+//rules to rememeber while rasing a pull request 
+why to follow rules 
+
+1) to avoid confilcts --> 
+
+//1 make sure your branch is always ahead by atleast 1 commit of your master 
+
+//2 do not make any unecsary changes which are not required 
+
+
+
+
+// how to rasie a pull request ? 
+
+//1 --> we will always raise a pr  --> by ui 
+
+

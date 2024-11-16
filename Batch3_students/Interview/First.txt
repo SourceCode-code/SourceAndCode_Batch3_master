@@ -1,5 +1,3 @@
-Interview Questions 
-
 Git Questions
 
 1. What is git?

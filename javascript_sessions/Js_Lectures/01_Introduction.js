@@ -43,6 +43,7 @@ let num = 10;
 num = 100;
 console.log(num); // Output: 100
 
+
 // `const`: Use when the variable's value will not change.
 const gravity = 9.81;
 console.log(gravity); // Output: 9.81

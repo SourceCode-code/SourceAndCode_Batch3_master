@@ -34,3 +34,6 @@ console.log(last_name)
 console.log(age)
 console.log(marital_status)
 console.log(first_name, last_name, age, marital_status)
+let my_age = 29
+let your_age = 25
+console.log(my_age,your_age)

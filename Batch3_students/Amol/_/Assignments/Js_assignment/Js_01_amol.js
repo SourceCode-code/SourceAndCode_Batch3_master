@@ -46,3 +46,4 @@ let firstname3="Amol",lastName3="kantilal",maritalStatus3="Single",countr3 = "In
 let myAge = 24
 let yourAge = 30
 console.log(myAge,yourAge)
+

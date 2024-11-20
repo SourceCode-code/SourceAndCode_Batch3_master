@@ -11,17 +11,17 @@
 // Single-Line Comments
 // Syntax: // 
 // Example:
-  // This is a single-line comment
+// This is a single-line comment
 
 // Multi-Line Comments
-// Syntax: /* ... */
+// Syntax: /**  ... */
 // Example:
-  /*
-   This is a multi-line comment
-   It spans multiple lines
-  */
+/*
+ This is a multi-line comment
+ It spans multiple lines
+*/
 
-   
+
 // Commenting Etiquette
 // 1) Comments should be short but well descriptive.
 // 2) Comments should be relevant and appropriate to the code.
@@ -35,7 +35,9 @@ console.log("Hello, world!");
 // To run a JavaScript file and view the output, use:
 // $ node filename.js
 
-// Variables
+
+
+// Variables  
 // ------------------
 
 // `let`: Use when the variable's value can change or be updated.
@@ -92,3 +94,36 @@ let firstName1 = "Sid", lastName1 = "Gadakh";
 
 console.log(firstName1);
 console.log(lastName1);
+
+
+//-----------------------------------------------------------------------------//
+
+//Datatypes -->
+// In JavaScripts Data types can be of main 2  types
+// 1 primitive data type --> the datatypes which are predefied , and these are immutable data type
+//2 non primitive data type -->  the datatypes which are not predefined , and these are muttable data types
+
+//primitive  datatypes
+
+//examples -->
+/**
+ * 1) numbers
+ * 2) string
+ * 3) null
+ * 4) undefined
+ * 5) boolean --(true and false)
+ */
+
+//2) non primitive 
+/**
+ * 1) arrays 
+ * 2)objects 
+ */
+
+
+//difference between primitive vs and non primitve 
+//- primitive datatypes --> the datatypes which are preddefined and are immutable 
+// numbers, strings,null,boolean,undefined
+//-non primitive datatypes--> theb datatypes which are not predefined and muutable 
+//arrays , objects 
+

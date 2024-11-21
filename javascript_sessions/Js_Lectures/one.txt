@@ -1,1 +1,3 @@
 this is file used to add js theory questions
+let num = 5.7
+console.log(Math.ceil(num))

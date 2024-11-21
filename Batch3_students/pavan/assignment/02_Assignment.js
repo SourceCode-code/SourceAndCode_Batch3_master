@@ -22,3 +22,5 @@ console.log(Math.ceil(num))  // 6
 
 // nearest down integer
 console.log(Math.floor(num))  // 5
+
+//Assignment complete

@@ -6,6 +6,10 @@
 
 // Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
 
+let a = "vaibhav"
+let z = true
+
+console.log(z)
 // Create datatypes.js file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
 
 // Declare four variables without assigning values

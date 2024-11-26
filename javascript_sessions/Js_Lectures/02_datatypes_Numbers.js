@@ -116,3 +116,5 @@ console.log("the output for dice roll is ",(Math.floor(Math.random()*5)+1))     
 
 // lowest -->  0  -->1
 // highest number 5.9 -->6.9 -->6
+
+

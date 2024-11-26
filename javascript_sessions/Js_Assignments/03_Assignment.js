@@ -33,6 +33,4 @@ let number = 1234.56789;
 
 //10 generate random odd number form 30 to 90
 
-//11 generate random prime number form 45-200
-
-//12 write program to generate a 10 digit random mobile number 
+//11 write program to generate a 10 digit random mobile number 

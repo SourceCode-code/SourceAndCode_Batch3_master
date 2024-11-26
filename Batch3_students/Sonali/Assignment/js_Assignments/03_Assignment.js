@@ -45,8 +45,15 @@ console.log(Math.random() * 3.8 + 5.5)
 //9 generate random even number upto 50
 console.log(Math.floor(Math.random() * 25) * 2)
 
+let evennumber= Math.ceil(Math.random()*25)
+console.log(evennumber*2)
+// 1
+//0
+
 //10 generate random odd number form 30 to 90
 
+let oddnumber= Math.ceil(Math.random()*25)
+console.log((evennumber*2)+1)
 //11 generate random prime number form 45-200
 
 //12 write program to generate a 10 digit random mobile number 

@@ -6,10 +6,10 @@
 // 2. What is the output of rounding the number 5.7 using Math.ceil() and Math.floor()? 
 //let num = 5.7;
 
-//console.log(Math.ceil(num)) 
-// output:-6
+console.log(Math.ceil(num)) 
+//output:-6
 
-//console.log(Math.floor(num))
+console.log(Math.floor(num))
 // output:- 52 
 
 // Hint: Rounds up to the nearest integer.
@@ -18,11 +18,11 @@
 // 3. Write program  `rollDice` that simulates rolling two dice and returns their combined result.
 // Hint: Each dice roll should return a number between 1 and 6.
 
-//console.log("the output for dice roll is ",(Math.floor(Math.random()*5)+1))   
+console.log("the output for dice roll is ",(Math.floor(Math.random()*5)+1))   
 
 // 4. What will be the result of the following code? Explain why.
-//let randomVal = Math.random();
-//console.log(Math.floor(randomVal * 10) + 5);
+let randomVal = Math.random();
+console.log(Math.floor(randomVal * 10) + 5);
 // write the output and reason in commnets 
 
 // Hint: Understand how the number is being generated and what range it falls in.

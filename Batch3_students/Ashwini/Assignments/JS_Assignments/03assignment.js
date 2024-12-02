@@ -18,7 +18,7 @@ console.log("The output for second dice roll is", Math.floor(Math.random()*5)+1)
 
 // 4. What will be the result of the following code? Explain why.
 let randomVal = Math.random();
-console.log("Output of following code is", Math.floor(randomVal * 10) + 5); //5-14
+console.log("Output of following code is", Math.floor(randomVal*10)+5); //5-14
 // write the output and reason in commnets 
 // output = any random number with nearest down integer + add 5 in that output which is ranges from 6-14
 

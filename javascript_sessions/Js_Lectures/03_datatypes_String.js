@@ -212,7 +212,7 @@ console.log(str26.trimEnd().length)//6
 
 const str27= "hey i am learning javascript"
 
-console.log(str27.includes("learning"))
+console.log(str27.includes("learning")) //true
 
 // replace -->  this method replaces the word with another word
 // syntx ---> string.replace(word to be replace,word that is to be replaced with )
@@ -225,3 +225,86 @@ console.log(newstr3)
 
 console.log(str27.startsWith("h"))
 console.log(str27.endsWith("t"))
+
+// indexof
+//lastindexof
+//concat
+//repeat
+//match
+//split
+//
+
+// indexof--> gives you the index of the first occrance of the character 
+
+let str28="siddhant"
+console.log(str28.indexOf("d")) //2
+
+
+//lastindexof()---> gives you the last occuranceof that character
+console.log(str28.lastIndexOf("d"))//3
+
+
+// concat --> used to join 2 or more strings 
+
+//(+),`........`
+
+let fn = "siddhant"
+let mn="arjun"
+let ln="gadakh"
+// concatation of 2 string 
+console.log(fn.concat(mn))
+// concatation of 3 string 
+console.log(fn.concat(mn,ln)) //siddhantarjungadakh
+//
+console.log(ln.concat(fn,mn)) //gadakhsiddhantarjun
+
+
+//repeat --> used to repeat the word upto a certain length
+
+let str29= "apple"
+
+console.log(str29.length) //5
+
+console.log(str29.repeat(10))
+
+
+////match---> give you the details of the wpords in string 
+
+let str30="I AM LEARNING JS AND CURRENTLY I AM STUDY STRING "
+
+console.log(str30.match("STRING"))
+
+/**
+ * 
+ * [
+  'STRING',
+  index: 42,
+  input: 'I AM LEARNING JS AND CURRENTLY I AM STUDY STRING ',
+  groups: undefined
+]
+ */
+
+
+//split -->spilt is used to convert 1 string into many on given character
+//spilting at space
+console.log(str30.split(" ")) //
+//syntax -->
+
+//srtingName.methodname(" ")// at what character to split
+
+//spliting at character
+console.log(str30.split("L"))
+
+//spliting at every character 
+console.log(str30.split(""))
+/**
+ * 'I', ' ', 'A', 'M', ' ', 'L', 'E', 'A',
+  'R', 'N', 'I', 'N', 'G', ' ', 'J', 'S',
+  ' ', 'A', 'N', 'D', ' ', 'C', 'U', 'R',
+  'R', 'E', 'N', 'T', 'L', 'Y', ' ', 'I',
+  ' ', 'A', 'M', ' ', 'S', 'T', 'U', 'D',
+  'Y', ' ', 'S', 'T', 'R', 'I', 'N', 'G',
+  ' '
+ */
+
+  

@@ -1,7 +1,8 @@
 // Simple Session Assignments:
 
 // 1. Declare a string variable `greeting` with the value "Hello World" and log its data type.
-
+let greeting="Hello World"
+console.log(greeting)
 
 // 2. Declare a number variable `price` with a value of 199.99, then use Math.ceil() to round it up to the nearest whole number and log the result.
 

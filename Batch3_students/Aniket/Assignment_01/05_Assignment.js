@@ -15,7 +15,7 @@ let str3 = "learning";
 console.log(str3.toUpperCase)
 
 
-// 4. Check if the string "coding" includes the word "code".
+// 4. Check if the string "coding" includes the word "code".0
 let str4 = "coding";
 console.log(str4.includes("code"))
 

@@ -45,7 +45,7 @@ let even = Math.ceil(Math.random()* 50)
 
 //10 generate random odd number form 30 to 90
 
-let even = Math.ceil(Math.random()*(45-30)+30)
+let even1 = Math.ceil(Math.random()*(45-30)+30)
 console.log(even)
 
 //11 generate random prime number form 45-200

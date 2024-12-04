@@ -28,13 +28,13 @@ var e
 var d
 
 // Declare four variables with assigned values
-let h=10
+let h = 10
 console.log(h)
-let i=20
+let i = 20
 console.log(i)
-const j=30
+const j = 30
 console.log(j)
-var k="New"
+var k = "New"
 console.log(k)
 
 // Declare variables to store your first name, last name, marital status, country and age in multiple lines
@@ -47,11 +47,11 @@ console.log(k)
 //console.log(firstName+" "+lastName+" "+maritalStatus+" "+country+" "+age)
 
 // Declare variables to store your first name, last name, marital status, country and age in a single line
-var firstName="Ashwini", lastName="Kadam", maritalStatus="Married", country="India", age=35
-console.log(firstName+" "+lastName+" "+maritalStatus+" "+country+" "+age)
+var firstName = "Ashwini", lastName = "Kadam", maritalStatus = "Married", country = "India", age = 35
+console.log(firstName + " " + lastName + " " + maritalStatus + " " + country + " " + age)
 
 // Declare two variables myAge and yourAge and assign them initial values and log to the console.
-let myAge=25
-let yourAge=26
+let myAge = 25
+let yourAge = 26
 
-console.log(myAge+" "+yourAge)
+console.log(myAge + " " + yourAge)

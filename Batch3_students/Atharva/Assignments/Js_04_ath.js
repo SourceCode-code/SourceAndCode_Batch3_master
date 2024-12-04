@@ -188,14 +188,24 @@ console.log("---Level-1.Ans-16---")
 
 // 22. Use endsWith() method with the string 30 Days Of JavaScript and make the result true
 
+let vb = challenge.endsWith('JavaScript')
+console.log(vb)
+console.log("---Level-1.Ans-22---")
+
 
 // 23. Use match() method to find all the a’s in 30 Days Of JavaScript
-
+let tu = challenge.match('a')
+console.log(tu)
+console.log("---level-1.Ans-23---")
 
 // 24. Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
-
-
+let tyu1 = challenge.concat('JavaScript')
+console.log(tyu1)
+console.log("---level-1.Ans-24---")
 // 25. Use repeat() method to print 30 Days Of JavaScript 2 times
+let tyu2 = challenge.repeat(2)
+console.log(tyu2)
+console.log("---level-1.Ans-25---")
 
 
 // Exercise: Level 2

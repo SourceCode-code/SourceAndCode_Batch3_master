@@ -29,10 +29,10 @@ console.log(Math.floor(Math.random()*(20-0)+1))
 // Advanced Session Assignments:
 
 // 7. Create a long literal string that spans multiple lines and log it.
-let srt13 = "qwertyuiolkjhgfdsazxcvbnjkijuytredsfghj\
-sdfghjgfdcvbnmjkhgfcv\
-jhgfdcvbbhkjhy\
-jhfvbnm"
+let srt13 = "qwertyuiolkjhggfsdjfgjdvbncxvbxnfdsazxcvbnjkijuytredsfghj\
+sdfghjgfdcdujskfhdjkgbxjbvcmvbnmjkhgfcv\
+jhgfdcvbbhkfhdkjvmcvbcnkjhy\
+jhfvshfdkhigerhgdkfhgkfdjvhfbnm"
 console.log(srt13)
 
 // 8. Write a program that uses escape characters to display the following:

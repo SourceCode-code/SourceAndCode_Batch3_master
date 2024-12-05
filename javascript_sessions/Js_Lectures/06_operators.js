@@ -131,7 +131,8 @@ console.log(num5) //4
 
 let num6 = -5
 
-num6 > 0 ? console.log(`the number ${num6} is positive number`) : console.log(`the number ${num6} is negative number`)
+num6 > 0 ? console.log(`the number ${num6} is positive number`)
+    : console.log(`the number ${num6} is negative number`)
 
 
 // another example 

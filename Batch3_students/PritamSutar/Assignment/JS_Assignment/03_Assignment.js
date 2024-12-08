@@ -1,5 +1,6 @@
+// Simple Session Assignments:
 
-// 1. Generate a random number between 1 and 10 (inclusive) and print it.
+/// 1. Generate a random number between 1 and 10 (inclusive) and print it.
 // Hint: Use Math.random() and Math.floor() to generate random numbers.
 
 console.log(Math.floor(Math.round() * 10))

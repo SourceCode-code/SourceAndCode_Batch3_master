@@ -68,47 +68,16 @@ console.log("2 decimal places number", Math.ceil(number * 100) / 100)
 
 //9 generate random even number upto 50
 console.log("Even numbers..............")
-/*for(num=0; num>=50; num++)
-{
-    if(num%2==0)
-        console.log(Math.random(num))
-   
-/*}
-*/
 randomEven = Math.floor(Math.random() * ((50 - 0) / 2)) * 2;
 console.log(randomEven);
 
 //10 generate random odd number form 30 to 90
 console.log("Odd numbers..............")
-/*for(num=0; num>=50; num++)
-/*{
-  /*  if(num%2!=0)
-    /*    console.log(Math.random(num))
-   /*}
-*/
-
 randomOdd = Math.floor(Math.random() * ((90 - 30) / 2) + 1) * 2;
 console.log(randomOdd);
 //11 generate random prime number form 45-200
 console.log("Prime numbers..............")
-/*var primeNumbers = [];
-/*for(var x=45; x>200; x++)
-/*{
- /*   if(x%2===0)
- /*   {
- /*       break;
- /*   }
- /*   else{
- /*       for (var y=2; y<200;y++)
- /*       if(x/y>1)
- /*       {
- /*           break;
- /*       }
- /*       else 
- /*       {
- /*           primeNumbers.push(x);
- /*       }
- /*   }
-}*/
+
+
 //12 write program to generate a 10 digit random mobile number 
 console.log("Random mobile number is", Math.floor(Math.random() * 10000000000))

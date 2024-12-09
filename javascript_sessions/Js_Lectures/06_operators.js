@@ -87,9 +87,11 @@ console.log(4 < 3 || 3 > 1) //true
 
 // !T ==> false
 //!F==> TRue 
+
 console.log("------------NOT---------------------------")
 console.log(!true) //false
 console.log(!false) //true
+
 
 //--------------------------------------------------------
 console.log("------------INCREMENT AND DRECEMENT OPERTOR---------------------------")

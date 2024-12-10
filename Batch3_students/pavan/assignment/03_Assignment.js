@@ -21,3 +21,21 @@ console.log(Math.floor(Math.random()*19)+1)
 
 
 
+// generate random even number upto 50//
+
+let even = Math.ceil(Math.random()*50)
+
+
+// generate random odd number from 30 to 90//
+
+let even = (Math.random()*(45-30)+30)
+console.log(even)
+
+
+// write a programe to generate a 10 digit random mobile number//
+let num =Math.ceil(Math.random()*999999999)
+console.log(num)
+
+
+
+

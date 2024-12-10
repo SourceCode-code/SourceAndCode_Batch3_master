@@ -97,6 +97,9 @@ console.log(str21.toLowerCase())
 
 // 6. Cut (slice) out the first word of the string using substr() or substring() method
 // Using substring method
+console.log(str21.substr(0,3))
+//  console.log(challeng.substring(0,2))
+
 
 // 7. Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
 

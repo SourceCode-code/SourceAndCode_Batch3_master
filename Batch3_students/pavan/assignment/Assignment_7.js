@@ -5,15 +5,16 @@
 
 // dd:mm:yyyy HH:mm (24 hours)
 const date = new Date()
+let hour = date.getHours()
+let min = date.getMinutes()
 
+let ampm = hour>12? "AM":"PM" 
 
 let date1 = date.getDate()
-
-let month = date.getMonth()
-
+let month = date.getMonth()+1
 let year = date.getFullYear()
 
-console.log(`${date}/${month}/${year}`
+console.log(`${date1}/${month}/${year}  ${hour}:${min} ${ampm}`)
 
 
 
@@ -28,7 +29,7 @@ let str_short_month = date.toLocaleString("en-gb",{month:"short"})
 
 let currentyear = date.getFullYear()
 
-console.log('${date1}/${str_short_month}/${currentyear}')
+console.log(`${date2}/${str_short_month}/${currentyear}`)
 
 
 
@@ -40,7 +41,7 @@ let str_LOng_month = date.toLocaleString("en-gb",{month:"long"})
 
 let year4 = date.getFullYear()
 
-console.log('${date3}/${str_LOng_month}/${year4}')
+console.log(`${date3}/${str_LOng_month}/${year4} ${hour}:${min}`)
 
 
 
@@ -48,8 +49,10 @@ console.log('${date3}/${str_LOng_month}/${year4}')
 
 const year5  = date.getFullYear()
 
-const month5 = date.getMonth()
+const month5 = date.getMonth()+1
 
 const date5 = date.getDate()
 
-console.log('${year5}/${month5}/${date}')
+console.log(`${year5}/${month5}/${date} ${min}:${hour}`)
+
+

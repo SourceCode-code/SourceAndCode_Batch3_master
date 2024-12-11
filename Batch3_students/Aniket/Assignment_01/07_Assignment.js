@@ -52,5 +52,5 @@ let hour = date.getHours()
 let min = date.getMonth()
 console.log(`${year}/${month}/${date} ${min}:${hour}`)
 
-
+// completde
 

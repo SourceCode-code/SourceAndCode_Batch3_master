@@ -3,7 +3,7 @@
 // 1. Declare a string variable `greeting` with the value "Hello World" and log its data type.
 
 let greeting = "Hello World"
-console.log(typeof greeting) //output:- "string"
+console.log(typeof (greeting)) //output:- "string"
 
 
 // 2. Declare a number variable `price` with a value of 199.99, then use Math.ceil() to round it up to the nearest whole number and log the result.
@@ -20,11 +20,13 @@ console.log(name.length) //output:-12
 
 // 4. Write a program that concatenates three string variables `firstName`, `middleName`, and `lastName` using both the `+` operator and template literals, then log the full name.
 
-let = firstName = "Aniket"
-let = middelName = "Shrihari"
-let = lastName = "Kadam"
+let  firstName = "Aniket"
+let  middelName = "Shrihari"
+let  lastName = "Kadam"
 
-console.log(firstName + middelName + lastName)  //output:- Aniketshriharikadam
+console.log(firstName+" " + middelName+" "+ lastName)  //output:- Aniket shrihari kadam
+
+console.log(`${firstName} ${middelName} ${lastName}`)
 
 
 // 5. Given a string `language = 'JavaScript'`, log the character at the 4th index in the string.

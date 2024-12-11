@@ -59,12 +59,15 @@ console.log(Math.random() * 3.8 + 5.5)
 
 
 // 7. Given a number `x = 1234.56789`, write code to round this number to 2 decimal places. that is x=1234.57
+x=1234.5678
+let rounded=Math.round(x*100)/100
+console.log(rounded)
 
 // 8. Write a program  that rounds any given number to the nearest multiple of 5.
 // Example:if 28 is given  should return 30, 32 should return 30.
 
 //9 generate random even number upto 50
-console.log(Math.floor(Math.random() * 25) * 2)
+console.log(Math.ceil(Math.random() * 25) * 2)
 
 let evennumber= Math.ceil(Math.random()*25)
 console.log(evennumber*2)
@@ -78,3 +81,5 @@ console.log((evennumber*2)+1)
 //11 generate random prime number form 45-200
 
 //12 write program to generate a 10 digit random mobile number 
+let mob_no=Math.floor(Math.random(9)*9999999990)
+console.log(mob_no)

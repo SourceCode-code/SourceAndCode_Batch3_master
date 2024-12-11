@@ -66,5 +66,65 @@ console.log(Math.max(3,8,4,0,9,6))
 //min=gives the minimum value between all values
 console.log(Math.min(3,8,4,0,9,6))
 
+let str7 = "siddhant"  //8
+
+// how to check length of a string 
+
+console.log(str7.length)
+
+
+// s  i  d  d  h  a  n  t 
+// 0  1  2  3  4  5  6  7 8 
+
+// srting stores the variables in indexes
+
+console.log(str7.length - 1)  // is always the last index 
+
+// to retrive any charcter 
+
+console.log(str7[1]) //i
+
+console.log(str7[str7.length - 1]) //t
+
+console.log(str7)
+
+// substr--> used to extract the variables and store them in another varaible 
+//syntax string.substr(startaingindex,number ofcharacters)
+let str25 = "SiddhantArjunGadakh"
+
+let newstr1 = str25.substr(0, 3)
+
+console.log(newstr1) //Sid
+
+//substring-->used to extract the variables and store them in another varaible
+
+// sytnax
+//string.substring(staringindex,endingindex) --> this will not include your ending index in the outputlet newstr1=str25.substr(0,8)
+
+
+let newstr2 = str25.substring(0, 3)
+
+console.log(newstr2) //Siddhant
+
+
+
+//-----------------------------------------
+
+//trim trimstart trimend
+
+let str26 = " hello "
+
+console.log(str26.length)//7
+
+//trim --> to remove empty space form both start and end we use trim method 
+
+console.log(str26.trim().length) //5
+console.log(str26.trimStart().length)//6
+
+console.log(str26.trimEnd().length)//6
+
+
+
+
 
 

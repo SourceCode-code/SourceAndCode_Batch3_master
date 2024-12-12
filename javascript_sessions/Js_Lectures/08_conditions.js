@@ -68,25 +68,25 @@ let num1 = -50
  * 
  * 
  */
-if(num1>0){
+if (num1 > 0) {
     console.log(`the given number ${num1} is positive interger`)
 }
-else{
-    console.log(`the given number ${num1} is negative interger`)  
+else {
+    console.log(`the given number ${num1} is negative interger`)
 }
 
 
 // example 2 
 
 //check if the wehater is raining to carry a umberlla 
- let israining= false
+let israining = false
 
- if(israining===true){
+if (israining === true) {
     console.log("please carry your raincoats and umberlla's ")
- }
- else{
+}
+else {
     console.log("dont carry your rainscoats")
- }
+}
 
 console.log("_______________else if ()________________________________")
 
@@ -114,15 +114,15 @@ console.log("_______________else if ()________________________________")
 
 let num3 = 0
 
-if(num3>0){
+if (num3 > 0) {
     console.log(`the given number ${num3} is positive interger`)
 }
 
-else if(num3 < 0){
+else if (num3 < 0) {
     console.log(` the number  ${num3} is negative number`)
 }
 
-else{
+else {
     console.log(` the number  ${num3} is zero`)
 
 
@@ -132,7 +132,7 @@ else{
 
 
 //-------------------------------------------------------------
-//if()----- checks one condition 
-//if else ()--- checks 2 conditions 
+//if()----- checks one condition
+//if else ()--- checks 2 conditions
 //else if ()--> more than 2 
 

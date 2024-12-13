@@ -87,10 +87,19 @@ let b = 3;
  */
 
 // 1. Write a program that tells the number of days in a month.
-
+//switch
 
 
 /**
  * Enter a month: January
  * January has 31 days.
  */
+
+// develop a program to get marks for student 
+// switch case
+// 90> above -- a
+// 80-90 --> a-
+//80-70 -->b
+//70-60 -->c
+//60-45--d
+//<45 --f

@@ -136,3 +136,65 @@ else {
 //if else ()--- checks 2 conditions
 //else if ()--> more than 2 
 
+
+//switch case -->
+
+/**syntax 
+ * 
+ * switch(true){
+ * case1 condition : output
+ * case2 condition : output
+ * case3 condition : output
+ * default :output
+ * 
+ * }
+ */
+
+
+// check number poostive or negative 
+
+let num4 = -50
+
+switch (true) {
+    //case 1 if num >0
+    case num4 > 0: console.log("num is positive ")
+        break
+    case num4 < 0: console.log("num is negaitve ")
+        break
+    case num4 === 0: console.log("num is neutral ")
+        break
+    default: console.log("enter correct data")
+        break
+}
+
+
+// break -- this is used to terminate your loop 
+
+//-------------------------------------------------------------------
+
+// deveop a program for a it orga to check wheater to do wfh or wfo 
+
+// wfo days -- monday , tuesday , wednesday
+
+//wfh -- thrusday , firday 
+// sat , sun 
+
+
+let day = "monday"
+
+let formatday = day.toLocaleLowerCase()
+switch (formatday) {
+
+    case "monday":
+    case "tuesday":
+    case "wednesday": console.log("you have to go to ofc ")
+        break
+    case "thrusday":
+    case "friday": console.log("WFH")
+        break
+    case "saturday":
+    case "sunday": console.log("holiday ")
+        break
+    default: console.log("enter correct data ")
+}
+

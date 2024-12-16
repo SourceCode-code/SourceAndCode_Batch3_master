@@ -6,7 +6,6 @@
 // If user is 18 or older, give feedback: 'You are old enough to drive'. 
 // If not 18, give feedback stating how many years are left to turn 18.
 
-
 /**
  * Enter your age: 30
  * You are old enough to drive.
@@ -20,8 +19,6 @@
 
 // 2. Compare the values of myAge and yourAge using if...else.
 // Log the result stating who is older. Use prompt("Enter your age:") to get the age input.
-
-
 
 /**
  * Enter your age: 30
@@ -38,7 +35,6 @@ let b = 3;
 
 
 // Using ternary operator
-
 
 /**
  * 4 is greater than 3
@@ -64,14 +60,10 @@ let b = 3;
 // 80-100: A, 70-79: B, 60-69: C, 50-59: D, 0-49: F
 
 
-
 // 2. Check the season based on user input month.
 
 
-
 // 3. Check if a day is a weekend or working day. Take day input and check its case insensitively.
-
-
 
 /**
  * What is the day today? Saturday
@@ -94,3 +86,5 @@ let b = 3;
  * Enter a month: January
  * January has 31 days.
  */
+
+year%4==0||year%100!==0&&year%400==0

@@ -22,11 +22,11 @@
 
 // check if   the given number is positive interger 
 
-let num = 10
+// let num = 10
 
-if (num > 0) {
-    console.log(`the given number ${num} is positive interger`)
-}
+// if (num > 0) {
+//     console.log(`the given number ${num} is positive interger`)
+// }
 
 
 //  example 2 --check if   the given number is positive interger or a negtaive interger
@@ -44,12 +44,12 @@ if (num > 0) {
 
 //--------------------------------------------------------
 
-console.log("_______________if else()________________________________")
+//console.log("_______________if else()________________________________")
 
 // when you have check 2 condition then you should use if else()
 // your condition should be either 
 
-let num1 = -50
+//let num1 = -50
 
 //num1>0?console.log(`the given number ${num1} is positive interger`): console.log(`the given number ${num1} is negative interger`)
 
@@ -68,27 +68,27 @@ let num1 = -50
  * 
  * 
  */
-if (num1 > 0) {
-    console.log(`the given number ${num1} is positive interger`)
-}
-else {
-    console.log(`the given number ${num1} is negative interger`)
-}
+// if (num1 > 0) {
+//     console.log(`the given number ${num1} is positive interger`)
+// }
+// else {
+//     console.log(`the given number ${num1} is negative interger`)
+// }
 
 
 // example 2 
 
 //check if the wehater is raining to carry a umberlla 
-let israining = false
+// let israining = false
 
-if (israining === true) {
-    console.log("please carry your raincoats and umberlla's ")
-}
-else {
-    console.log("dont carry your rainscoats")
-}
+// if (israining === true) {
+//     console.log("please carry your raincoats and umberlla's ")
+// }
+// else {
+//     console.log("dont carry your rainscoats")
+// }
 
-console.log("_______________else if ()________________________________")
+// console.log("_______________else if ()________________________________")
 
 //else if()----------> when you have more than 2 condition to check you use else if ()
 
@@ -112,21 +112,20 @@ console.log("_______________else if ()________________________________")
 
 // check whetar the number is positive , negative , zero 
 
-let num3 = 0
 
-if (num3 > 0) {
-    console.log(`the given number ${num3} is positive interger`)
-}
+// if (num3 > 0) {
+//     console.log(`the given number ${num3} is positive interger`)
+// }
 
-else if (num3 < 0) {
-    console.log(` the number  ${num3} is negative number`)
-}
+// else if (num3 < 0) {
+//     console.log(` the number  ${num3} is negative number`)
+// }
 
-else {
-    console.log(` the number  ${num3} is zero`)
+// else {
+//     console.log(` the number  ${num3} is zero`)
 
 
-}
+// }
 
 
 

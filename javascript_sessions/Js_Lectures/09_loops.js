@@ -143,22 +143,22 @@ console.log(count)
 
  */
 
- for(let i =0;i<=10;i++){
-    console.log(`${i}  ${i*i}  ${i*i*i}`)
- }
-
-
-
- // ---------------------------------------------------------
-
- // use loop and itertate form 0 to 10  and calcuate sum of all even numbers 
-
-let sum =0 //2 
-for(let i =0;i<=100;i++){
-
-if(i%2==0){
-  sum +=i 
+for (let i = 0; i <= 10; i++) {
+    console.log(`${i}  ${i * i}  ${i * i * i}`)
 }
+
+
+
+// ---------------------------------------------------------
+
+// use loop and itertate form 0 to 10  and calcuate sum of all even numbers 
+
+let sum = 0 //2 
+for (let i = 0; i <= 1000; i++) {
+
+    if (i % 2 == 0) {
+        sum += i
+    }
 }
 console.log(sum)
 
@@ -167,3 +167,83 @@ console.log(sum)
 //   less than <  greater than ---lesss than
 
 // > -- greater than 
+
+
+//---------------------------------------------------------------------------------------
+
+
+// the keywords used in loops -->
+
+
+// break   --> if the condition is statisfied it will terminate the loop 
+
+// continue -->if the condition is statisfied it will skip that condition  the loop 
+
+
+
+// examples  break example
+
+console.log("------------break example----------------")
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i)  // 0-5
+    if (i == 5) {
+        break
+    }
+
+    // console.log(i) //0-4
+}
+
+
+console.log("------------continue example----------------")
+
+for(let i =0;i<=5;i++){
+ 
+
+    if(i==2){
+        continue
+    }
+
+    console.log(i)
+}
+
+//0  1   3 4 5
+
+
+
+// ----------------------------while -----------------------------------------
+
+
+// while -->  you use while loop when you condition is infitne 
+
+
+//syntax
+
+
+/**
+ * 
+ * let i=0
+ * 
+ * while(condition){
+ * code 
+ * 
+ * increment / decrement 
+ * 
+ * }
+ * 
+ * 
+ */
+
+// example 
+console.log("------------------------------while example-----------------")
+// print number untill n using while loop 
+let i = 0
+
+while(i>=0){
+
+    console.log(i)
+    i++
+}
+
+// reaming therory sytnax ----------> array and object 
+

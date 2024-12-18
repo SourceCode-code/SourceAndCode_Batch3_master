@@ -128,25 +128,78 @@ console.log(RESULT) // false
 console.log("-----Ans.13-----")
 
 // 14. Write a script  the user to enter the base and height of a triangle, then calculate its area.
-
+let base = 5;
+let height = 9;
+let Area = (.5*base*height);
+console.log(Area)
+console.log("-----Ans.14-----")
 
 // 15. Write a script that the user to enter sides a, b, and c of a triangle, then calculate its perimeter.
+let a1 = 3;
+let b1 = 8;
+let c1 = 7;
+let perimeterOfTriangle = (a1 + b1 + c1)
+console.log(perimeterOfTriangle)
+console.log("-----Ans.15-----")
 
 // 16. Calculate the area and perimeter of a rectangle, prompting for length and width.
+let x1 = 15;
+let y1 = 20;
+console.log(2*(x1 + y1))
+console.log((x1*y1))
+console.log("-----Ans.16-----")
 
 // 17. Get the radius   calculate the area and circumference of a circle.
+let radius = 9
+console.log(3.14*radius**2)
+console.log("-----Answer.17------")
 
 // 18. Calculate the slope, x-intercept, and y-intercept of y = 2x - 2.
+//to calculate the slope : formula is Y= mx + b
+let y2= -5
+let m = 6
+let x2 = -y/m
+console.log(x2)
+console.log("-----Answer.18------")
 
 // 19. Compare the slope between two points (2, 2) and (6, 10).
+let t = 2
+let u = 4
+let o = 9
+let p = 2
+let slope = (p-u)/(o-t)
+console.log(slope)
+console.log("-----Answer.19------")
 
 // 20. Compare the slope of the two questions above.
+console.log(m === slope)
+console.log("-----Answer.20------")
 
 // 21. Calculate the value of y (y = x^2 + 6x + 9) for different x values and figure out when y equals 0.
 
+
 // 22. Compare the length of your first name and your family name.
+let firstname = "atharva";
+let lastname = "pandit"
+console.log(firstname.length/lastname.length)
+console.log("-----Answer.22------")
 
 // 23. Declare two variables `myAge` and `yourAge`, then calculate the age difference.
+let myAge = 25;
+let yourAge = 35;
+let diff = yourAge - myAge
+console.log(diff)
+console.log("-------Answer.23---------")
 
 // 24. Using prompt, when birth year and calculate if they are old enough to drive.
+let validAge = 18;
+let Age = 17
+Age >= validAge ? console.log("You're Old enough to Drive"):console.log("You're not old enough to drive")
+console.log("------Ans.24-----------")
+
+
+/////////////////---------Assignment-06--------\\\\\\\\\\
+
+
+
 

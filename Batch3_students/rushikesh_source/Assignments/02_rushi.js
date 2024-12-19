@@ -5,8 +5,8 @@
 // Simple Questions:
 
 // 1. What will be the output of the following code? 
-let x = 7.2;
-console.log(Math.round(x)) // 7
+//let x = 7.2; 
+//console.log(Math.round(x)) // 7
 // Hint: It will round to the nearest integer. write in comment
 // console.log(Math.round(x));  // 7
 

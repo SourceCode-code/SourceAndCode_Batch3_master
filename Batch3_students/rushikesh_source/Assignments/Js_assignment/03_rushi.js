@@ -39,21 +39,21 @@
 //console.log(Math.ceil(amount))//46
 //console.log(Math.round(amount))//46
 // 10. Create a string `quote = "Learning JavaScript is awesome!"`. Use the `.length` property to find the length of the string and the index of the character 'J'.
-let quote = "Learning JavaScript is awesome!"
+// let quote = "Learning JavaScript is awesome!"
 
-console.log(quote.length)//31
-console.log(quote.indexOf("J"))//9
+//console.log(quote.length)//31
+//console.log(quote.indexOf("J"))//9
 // 12. Create a string variable `str = 'Hello, World!'` and use an escape character to insert a tab between the words "Hello," and "World!" and log the result.
-let str = 'Hello,\t World!'
-console.log(str)
+//let str = 'Hello,\t World!'
+//console.log(str)
 // 13. Given two variables, `str1 = 'abc'` and `str2 = 'def'`, write a program to concatenate these two strings using both the `+` operator and template literals. Log both results.
-let str1 = 'abc'
-let str2 = 'def'
+//let str1 = 'abc'
+//let str2 = 'def'
 
-console.log(str1.concat(str2))
+//console.log(str1.concat(str2))
 
 // 14. Write a program to pick a random element from string "qwertyuiopasdfghjklzxcvbnm" and log the selected element.
-let num3 = "qwertyuiopasdfghjklzxcvbnm"
+//let num3 = "qwertyuiopasdfghjklzxcvbnm"
 //15 write a program to generate a random odd number form 15-150
 
 

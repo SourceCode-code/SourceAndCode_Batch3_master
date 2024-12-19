@@ -7,20 +7,20 @@
 // 2. Retrieve the last character of the string "automation".
 let str2 = "automation";
 //console.log(str2.length)//10
-console.log(str2[str2.length-1])
+//console.log(str2[str2.length-1])
 
 // 3. Convert the string "learning" to uppercase.
 let str3 = "learning";
-console.log(str3.toUpperCase())
+//console.log(str3.toUpperCase())
 
 // 4. Check if the string "coding" includes the word "code".
 let str4 = "coding";
-console.log(str4.includes("code"))
+//console.log(str4.includes("code"))
 
 // 5. Trim the spaces from the string "   JavaScript   ".
-let str5 = "   JavaScript   ";
-console.log(str5.length)//16
-console.log(str5.trim().length)//10
+//let str5 = "   JavaScript   ";
+//console.log(str5.length)//16
+//console.log(str5.trim().length)//10
 
 // Tough and Advanced Questions
 // 6. Extract the first 5 characters from the string "PlaywrightAutomation".
@@ -40,8 +40,8 @@ let str6 = "PlaywrightAutomation";
 //console.log(str9.toUpperCase().toLocaleLowerCase().toUpperCase())
 
 // 10. Find the character at the 5th position in the string "Functional Testing".
-let str10 = "Functional Testing" ;
-console.log(str10[5])
+//let str10 = "Functional Testing" ;
+//console.log(str10[5])
 
 // 11. Write a check if  a string and returns true if it includes the word "API",
 
@@ -50,16 +50,17 @@ let str12 = "automation testing";
 
 // 13. Convert the string "HELLOworld" to lowercase and remove spaces from the beginning and end.
 let str13 = " HELLOworld ";
+console.log( str13.toUpperCase().trim().length) 
 
 // 14. Replace the first occurrence of "test" with "exam" in the string "test your code with a test case".
 let str14 = "test your code with a test case";
-//thanks 
+console.log(str14.replace("test" , "exam" ))
 
+//thanks 
 //-------------------------------------------------------------------------------------------------//
 // Exercise: Level 1
-
 // 1. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
-
+let challenge = "30 Days Of JavaScript"
 
 // 2. Print the string on the browser console using console.log()
 

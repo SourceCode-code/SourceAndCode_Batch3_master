@@ -29,7 +29,7 @@ for (let i = 20; i >= 0; i--) {
 console.log("----------------------example string---------------------------------------------------")
 
 
-let str = "siddhant"
+let str = "siddhantertyui"
 
 
 for (let i = 0; i < str.length; i++) {
@@ -58,16 +58,16 @@ console.log("----------------------example sqaure-------------------------------
 
 // print the sqaure of each number untill 25
 
-for(let i=0;i<=25;i++){
-    console.log(`${i*i}`)
+for (let i = 0; i <= 25; i++) {
+    console.log(`${i * i}`)
 }
 
 // print the even numbers till 10
 
 
 
-for(let i=0;i<=10;i++){
-    if(i%2==0){
+for (let i = 0; i <= 10; i++) {
+    if (i % 2 == 0) {
         console.log(i)
     }
 }
@@ -79,4 +79,171 @@ for(let i=0;i<=10;i++){
 // 8
 // 10
 
+
+//-------------------------------------------------
+
+console.log(`-------------------odd numbers ------------------------------------`)
+// print number  odd uptill 10
+
+
+for (let i = 0; i <= 10; i++) {
+    if (i % 2 != 0) {
+        console.log(i)
+    }
+}
+
+//-----------------------------------------------------
+
+// find the count of vowels in the given string 
+
+//a e i o u
+console.log(`-------------------vowels ------------------------------------`)
+let str1 = "siddhantarjun"
+let count = 0
+
+for (let i = 0; i < str1.length; i++) {
+    if (str1[i] == "a" || str1[i] == "e" || str1[i] == "i" || str1[i] == "o" || str1[i] == "u") {
+
+        count++
+    }
+
+}
+console.log(count)
+
+
+console.log(`-------------------conjucatnes ------------------------------------`)
+
+let count1 = 0
+
+
+for (let i = 0; i < str1.length; i++) {
+    if (str1[i] != "a" || str1[i] != "e" || str1[i] != "i" || str1[i] != "o" || str1[i] != "u") {
+
+        count++
+    }
+
+}
+console.log(count)
+
+
+// print the following pattern 
+
+/**
+ i        i^2          i^3
+ 0       0            0
+ 1       1             1
+ 2        4            8 
+ * 
+ * 
+ * 
+ * 
+
+
+
+
+ */
+
+for (let i = 0; i <= 10; i++) {
+    console.log(`${i}  ${i * i}  ${i * i * i}`)
+}
+
+
+
+// ---------------------------------------------------------
+
+// use loop and itertate form 0 to 10  and calcuate sum of all even numbers 
+
+let sum = 0 //2 
+for (let i = 0; i <= 1000; i++) {
+
+    if (i % 2 == 0) {
+        sum += i
+    }
+}
+console.log(sum)
+
+/** */
+
+//   less than <  greater than ---lesss than
+
+// > -- greater than 
+
+
+//---------------------------------------------------------------------------------------
+
+
+// the keywords used in loops -->
+
+
+// break   --> if the condition is statisfied it will terminate the loop 
+
+// continue -->if the condition is statisfied it will skip that condition  the loop 
+
+
+
+// examples  break example
+
+console.log("------------break example----------------")
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i)  // 0-5
+    if (i == 5) {
+        break
+    }
+
+    // console.log(i) //0-4
+}
+
+
+console.log("------------continue example----------------")
+
+for(let i =0;i<=5;i++){
+ 
+
+    if(i==2){
+        continue
+    }
+
+    console.log(i)
+}
+
+//0  1   3 4 5
+
+
+
+// ----------------------------while -----------------------------------------
+
+
+// while -->  you use while loop when you condition is infitne 
+
+
+//syntax
+
+
+/**
+ * 
+ * let i=0
+ * 
+ * while(condition){
+ * code 
+ * 
+ * increment / decrement 
+ * 
+ * }
+ * 
+ * 
+ */
+
+// example 
+console.log("------------------------------while example-----------------")
+// print number untill n using while loop 
+let i = 0
+
+while(i>=0){
+
+    console.log(i)
+    i++
+}
+
+// reaming therory sytnax ----------> array and object 
 

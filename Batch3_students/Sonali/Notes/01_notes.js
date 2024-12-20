@@ -33,3 +33,16 @@ console.log(x)
 //const= value cannot be changed
 pi=3.14
 console.log(pi)
+
+//let date = new Date()
+// let futureDate = date.getDate()
+// date.setDate(futureDate+23)
+// console.log(date.getDate())
+// let futureMonth = date.getMonth()+1
+// date.setMonth(futureMonth+13)
+// console.log(date.getMonth())
+// let futureYear = date.getFullYear()
+// date.setFullYear(futureYear+23)
+// console.log(date.getFullYear())
+// let humanreadale = date.toLocaleString("en-gb",{day:"2-digit",weekday:"long",month:"2-digit",year:"numeric",hour:"2-digit",hourCycle:"h12",minute:"2-digit",second:"2-digit"})
+// console.log(humanreadale)

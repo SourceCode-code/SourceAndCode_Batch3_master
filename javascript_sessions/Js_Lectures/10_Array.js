@@ -180,7 +180,7 @@ console.log(cc)
  // how to convert array into string 
 //join--> used to convert array to string 
 //synatx arrayname.join("chacrter to join")
- let str3=arr2.join(" ")
+ let str3=arr2.join("-->")
 
 
  console.log( str3) //male-->siddhant-->arjun-->gadakh-->26-->7020400749-->siddhantsource@gmail.com

@@ -21,8 +21,6 @@
 // 2. Compare the values of myAge and yourAge using if...else.
 // Log the result stating who is older. Use prompt("Enter your age:") to get the age input.
 
-
-
 /**
  * Enter your age: 30
  * You are 5 years older than me.
@@ -38,7 +36,6 @@ let b = 3;
 
 
 // Using ternary operator
-
 
 /**
  * 4 is greater than 3
@@ -64,14 +61,10 @@ let b = 3;
 // 80-100: A, 70-79: B, 60-69: C, 50-59: D, 0-49: F
 
 
-
 // 2. Check the season based on user input month.
 
 
-
 // 3. Check if a day is a weekend or working day. Take day input and check its case insensitively.
-
-
 
 /**
  * What is the day today? Saturday
@@ -94,12 +87,3 @@ let b = 3;
  * Enter a month: January
  * January has 31 days.
  */
-
-// develop a program to get marks for student 
-// switch case
-// 90> above -- a
-// 80-90 --> a-
-//80-70 -->b
-//70-60 -->c
-//60-45--d
-//<45 --f

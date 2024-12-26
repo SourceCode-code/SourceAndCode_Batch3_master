@@ -34,7 +34,7 @@ console.log(array4)
 //----------------------------------------------------------------------
 //each value in array is stored in indexes
 
-//            0         1        2      3    4
+//             0         1        2      3    4
 let arr = ["siddhant","arjun","gadakh",26,"7020400749"]
 console.log(arr)
 
@@ -106,4 +106,83 @@ console.log(arr) //[ 'sid', 'arjun', 'gadakh', 27, '7020400749' ]
 
 delete arr[4]
 console.log(arr)
+
+
+
+//------------------------------------------------------------------------
+
+// methods used on array 
+
+
+//-----------------------------------------------------------------------
+
+//push()--> to add any element in the array at last or end use use push
+
+let arr1 = ["siddhant","arjun","gadakh",26,"7020400749"]
+
+arr1.push("siddhantsource@gmail.com")
+
+console.log(arr1) 
+
+/**
+ * ['siddhant','arjun','gadakh',26,'7020400749','siddhantsource@gmail.com']
+ */
+
+//unshift()--->to add any element in the array at first or start use use unshift
+
+arr1.unshift("male")
+
+console.log(arr1)
+/**
+ * ['male','siddhant','arjun','gadakh',26,'7020400749','siddhantsource@gmail.com']
+ */
+
+//----------------------------------------------------------------------
+//delete the element
+
+// pop()---> removes your last element form the array
+
+arr1.pop()
+
+console.log(arr1)
+
+//[ 'male', 'siddhant', 'arjun', 'gadakh', 26, '7020400749' ]
+
+//shift()---> removes the first element from array 
+
+arr1.shift()
+
+console.log(arr1)
+
+//[ 'siddhant', 'arjun', 'gadakh', 26, '7020400749' ]
+
+//splice()----> method used to remove any element form the array 
+
+// syntax splice(starting index , number elemnts )
+
+
+arr1.splice(1,3)
+
+
+
+console.log(arr1)
+
+//slice ()-- method used to remove any element form the array 
+//syntax -- slice(starting index , ending index)  --> doesnt include ending index in output
+
+let arr2 =['male','siddhant','arjun','gadakh',26,'7020400749','siddhantsource@gmail.com']
+
+let cc =arr2.slice(1,6)
+
+console.log(cc)
+
+//-------------------------------------------------------------
+ // how to convert array into string 
+//join--> used to convert array to string 
+//synatx arrayname.join("chacrter to join")
+ let str3=arr2.join("-->")
+
+
+ console.log( str3) //male-->siddhant-->arjun-->gadakh-->26-->7020400749-->siddhantsource@gmail.com
+
 

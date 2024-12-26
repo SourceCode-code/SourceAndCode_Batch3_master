@@ -88,4 +88,14 @@ Question 4:
 Check if a current  year is a leap year.
 
 */
+let year=2024;
+
+if(year%4==0)
+{
+    console.log("Current year is a leap year")
+}
+else
+{
+    console.log("Current year is not a leap year")
+}
 

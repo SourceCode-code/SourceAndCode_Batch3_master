@@ -5,8 +5,15 @@
 // 1. Get user input using prompt("Enter your age:"). 
 // If user is 18 or older, give feedback: 'You are old enough to drive'. 
 // If not 18, give feedback stating how many years are left to turn 18.
-
-
+console.log("---------less than 18----------")
+let age=17
+if(age>=18){
+    console.log("You are old enough to drive")
+}
+else
+{
+    console.log("You are not old enough to drive")
+}
 /**
  * Enter your age: 30
  * You are old enough to drive.
@@ -14,7 +21,15 @@
  * Enter your age: 15
  * You are left with 3 years to drive.
  */
-
+console.log("---------greater than 18----------")
+let age1=30
+if(age1>=18){
+    console.log("You are old enough to drive")
+}
+else
+{
+    console.log("You are not old enough to drive")
+}
 
 
 
@@ -53,7 +68,12 @@ num > num1 ? console.log(`The number ${num} is grater than ${num1} number`)
 
 
 // 4. Check if a number is even or odd.
-
+console.log("---------even number----------")
+let num2=22
+if(num2%2 == 0)
+{
+    console.log("The given number is even")
+}
 
 /**
  * Enter a number: 22
@@ -64,7 +84,12 @@ num > num1 ? console.log(`The number ${num} is grater than ${num1} number`)
  /* Enter a number: 99
  * 99 is an odd number.
  */
-
+ console.log("---------odd number----------")
+ let num3=99
+ if(num3%2 != 0)
+ {
+     console.log("The given number is odd")
+ }
 
 /**
  * Exercises: Level 2
@@ -73,24 +98,24 @@ num > num1 ? console.log(`The number ${num} is grater than ${num1} number`)
 // 1. Write a code to give grades to students according to their scores:
 // 80-100: A, 70-79: B, 60-69: C, 50-59: D, 0-49: F
 
-if(let num2<=100 && num3>=80)
-    console.log(`Students are of A score`)
+//let mark;
+if(let marks <= 100 && marks >= 80)
+    console.log(`Students are scored A grade`)
     break;
-elseif(let num4<=79 && num5>=80)
-    console.log(`Students are of B score`)
+elseif(let marks <= 79 && marks >= 70)
+    console.log(`Students are scored B grade`)
     break;
-elseif(let num6<=69 && num7>=60)
-    console.log(`Students are of C score`)
+elseif(let marks <= 69 && marks >= 60)
+    console.log(`Students are scored C grade`)
     break;
-elseif(let num8<=59 && num9>=50)
-    console.log(`Students are of D score`)
+elseif(let marks <= 59 && marks >= 50)
+    console.log(`Students are scored D grade`)
     break;
-elseif(let num10<=49 && num11>0)
+elseif(let marks <= 49 && marks > 0)
     console.log(`Students are failed`)
 
 
 // 2. Check the season based on user input month.
-
 
 
 // 3. Check if a day is a weekend or working day. Take day input and check its case insensitively.

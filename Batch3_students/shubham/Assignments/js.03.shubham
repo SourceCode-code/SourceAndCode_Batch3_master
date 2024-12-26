@@ -21,6 +21,7 @@ let secondDice = Math.ceil(Math.random()*6);
 // 4. What will be the result of the following code? Explain why.
 let randomVal = Math.random();
 console.log(Math.floor(randomVal * 10) + 5);
+
 // 14 because,Math.random()*10 it will gives value of 9.99 but in condition we use Math.floor becouse of that its goes 0 to 9 and then it will and 5 so that is 14
 // write the output and reason in commnets 
 

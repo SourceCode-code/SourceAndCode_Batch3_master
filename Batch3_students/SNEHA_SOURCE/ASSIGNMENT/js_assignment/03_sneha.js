@@ -1,55 +1,77 @@
+// // Simple Session Assignments:
 
-// 1. Generate a random number between 1 and 10 (inclusive) and print it.
-// Hint: Use Math.random() and Math.floor() to generate random numbers.
-console.log(Math.floor(Math.random()*10))
-//----------------------------------------------------------------------------------------
-// 2. What is the output of rounding the number 5.7 using Math.ceil() and Math.floor()? 
-let num = 5.7;
-// Hint: Rounds up to the nearest integer.
-// Hint: Rounds down to the nearest integer.
-Math.floor(num)//output is 5
-Math.ceil(num)//output is 6
-//--------------------------------------------------------------------------------------------
+// // 1. Declare a string variable `greeting` with the value "Hello World" and log its data type.
 
-// 3. Write program  `rollDice` that simulates rolling two dice and returns their combined result.
-// Hint: Each dice roll should return a number between 1 and 6.
-let a=Math.floor(Math.random()*6)
-let b=Math.floor(Math.random()*6)
-console.log(a,b)
-//----------------------------------------------------------------------------------------------
+// let greeting="hello world"
+// console.log(greeting)
 
-// 4. What will be the result of the following code? Explain why.
-let randomVal = Math.random();
-console.log(Math.floor(randomVal * 10) + 5);
-// write the output and reason in commnets 
-//starting of the value is 5 and last value 15 because floor value get int no that is 0*10+5=5
-//1*10+5=15
-// Hint: Understand how the number is being generated and what range it falls in.
-//----------------------------------------------------------------------------------------------
+// // 2. Declare a number variable `price` with a value of 199.99, then use Math.ceil() to round it up to the nearest whole number and log the result.
+// let price=199.99
+// console.log(Math.ceil(price))
+// // 3. Create a string `name` with your full name and log the length of the string using the `.length` property.
 
- 
-//5 generate  randomBetween(10, 20) should generate a number between 10 and 20.
-//console.log(randomBetween(10, 20));
-// let randomvalue=Math.random();
-// console.log(Math.floor(randomvalue * 20)+5)
-//---------------------------------------------------------------------------------------------
-// 5 generate a random number between 5.5-9.3
-//Example: randomFloat(5.5, 9.3) should generate a random float between 5.5 and 9.3.
-let val=Math.random()
-console.log("answer of q no 5",val*10)+6  //i will try but not getting proper answer
-//--------------------------------------------------------------------------------------
+// let name="sneha suresh anap"
+// console.log(name.length)
 
-// 7. Given a number `x = 1234.56789`, write code to round this number to 2 decimal places. that is x=1234.57
-//..let number = 1234.56789;
+// // 4. Write a program that concatenates three string variables `firstName`, `middleName`, and `lastName` using both the `+` operator and template literals, then log the full name.
+// let firstname="sneha"
+// let middlename="suresh"
+// let lastname="anap"
+// console.log(firstname+ " " ,middlename+" " ,lastname+ "")
+// console.log(`${firstname} ${middlename} ${lastname}`)
 
-// 8. Write a program  that rounds any given number to the nearest multiple of 5.
-// Example:if 28 is given  should return 30, 32 should return 30.
+// // 5. Given a string `language = 'JavaScript'`, log the character at the 4th index in the string.
 
-//9 generate random even number upto 50
+// //let language="javascript"
+// //console.log(language[4])
+// // 6. Write a program to generate an even random number between 0-20 using `Math.random()`, then log the number.
+// //let even=Math.random(Math.ceil()*20)
+// //console.log(even/2)
 
-//10 generate random odd number form 30 to 90
 
-//11 generate random prime number form 45-200
 
-//12 write program to generate a 10 digit random mobile number 
-console.log(Math.round(Math.random()*11)+1)
+// // Advanced Session Assignments:
+
+// // 7. Create a long literal string that spans multiple lines and log it.
+// let string="my\name\is\sneha\i\am\from\sangamner"
+// console.log(string)
+
+// // 8. Write a program that uses escape characters to display the following:
+// //    I am learning JavaScript.
+// //    It's "fun" to learn JavaScript!
+let a=' I am learning JavaScript.'
+console.log(a)
+//It's "fun" to learn JavaScript!
+console.log("It\'s \"fun\" to\ learn\ JavaScript!")
+
+
+// // 9. Write a program that declares a variable `amount = 45.85`, then uses `Math.floor()`, `Math.ceil()`, and `Math.round()` on this value and logs each result.
+let amount=45.85
+console.log(Math.floor(amount))
+console.log(Math.round(amount))
+console.log(Math.ceil(amount))
+
+// // 10. Create a string `quote = "Learning JavaScript is awesome!"`. Use the `.length` property to find the length of the string and the index of the character 'J'.
+ let quote = "Learning JavaScript is awesome!"
+ console.log(quote.length)
+ console.log(quote.indexOf('J'))
+
+// // 12. Create a string variable `str = 'Hello, World!'` and use an escape character to insert a tab between the words "Hello," and "World!" and log the result.
+let str="hello,\t world!"
+console.log(str)
+// // 13. Given two variables, `str1 = 'abc'` and `str2 = 'def'`, write a program to concatenate these two strings using both the `+` operator and template literals. Log both results.
+// let str1 = 'abc';
+// let str2 = 'def';
+// console.log(str1+ " "+str2)
+// console.log(`${str1} ${str2}`)
+
+
+
+
+// // 14. Write a program to pick a random element from string "qwertyuiopasdfghjklzxcvbnm" and log the selected element.
+let string="qwertyuiopasdfghjklzxcvbnm" 
+let random=Math.round(Math.random()*string.length)
+console.log(string[random])
+// //15 write a program to generate a random odd number form 15-150
+let odd=Math.floor(Math.random()*((150-15)/2+1))*2+15
+ console.log(odd)

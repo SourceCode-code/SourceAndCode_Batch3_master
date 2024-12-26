@@ -27,3 +27,36 @@ console.log(`${newDate1}/${longmonth}/${newYear} ${newhour2}:${newMin1}`)
 
 // yyyy:mm:DD mm:hh 
 console.log(`${newYear}:${newMonth1}:${newDate1} ${newhour2}:${newMin1}`)
+
+let age = 25
+
+ let secondslived = age*(365*24*60*60) //assume this is not a leap year 
+console.log(secondslived) //788400000
+
+let assumption = 100
+let secondslived2 = assumption*(365*24*60*60) //assume this is not a leap year 
+console.log(secondslived2)  //  3153600000
+
+
+// Question 2: 
+// Return the date in the format: "Day of the Week, DD Month YYYY HH:mm" 
+// (e.g., "Monday, 02 October 2024 15:30").
+// (e.g., "Monday, 02 October 2024 3:30 pm").
+console.log(date.toLocaleString("en-gb",{weekday:"long",day:"2-digit",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit"}))
+console.log(date.toLocaleString("en-gb",{weekday:"long",day:"2-digit",month:"long",year:"numeric",hour:"2-digit",hourCycle:"h12",minute:"2-digit"}))
+
+
+// Question 3: 
+// Calculate how many days are left until a specific date (input: 'YYYY-MM-DD').
+// 31 -dec
+let date1 = new Date(12-12-2024)
+let date2 = new Date(31-12-2024)
+let diffdays = Math.abs(date2-date1)
+console.log(diffdays)
+
+
+// Question 4: 
+// Check if a current  year is a leap year.
+let date3 = new Date()
+let curYear = date3.getFullYear()
+curYear%4==0||curYear%100!==0&&curYear%400==0?console.log(`${curYear} is a leap year`):console.log(`${curYear} is not leap year`)

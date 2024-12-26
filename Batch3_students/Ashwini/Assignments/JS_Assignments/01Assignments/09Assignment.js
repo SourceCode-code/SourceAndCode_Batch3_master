@@ -168,4 +168,5 @@ let str = "racecar"
 
 //17) print the longest word form the given string
 
-// str = " hello i am learning javascript and currently i am seeing the topic loops"
+ str = " hello i am learning javascript and currently i am seeing the topic loops"
+ 

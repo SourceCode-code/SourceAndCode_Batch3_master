@@ -363,5 +363,3 @@ let revarr = []
 for(let i =arr9[arr9.length-1];i=0;i-- ){
   console.log(arr9[i])
 }
-
-

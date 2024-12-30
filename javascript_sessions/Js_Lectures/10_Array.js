@@ -186,3 +186,76 @@ console.log(cc)
  console.log( str3) //male-->siddhant-->arjun-->gadakh-->26-->7020400749-->siddhantsource@gmail.com
 
 
+
+
+// sort()--> if you want to sort any array aplhabaticalyy
+
+let arr4 = ["apple","chickoo","pineapple","custrad","banana"]
+
+
+console.log(
+arr4.sort()) //[ 'apple', 'banana', 'chickoo', 'custrad', 'pineapple' ]
+
+let arr5=["2","5","8","7","1","2","6","7","6","19","666"]
+
+console.log(arr5.sort())
+
+// [1,2,......666]
+
+
+// reverse ()--->   this is used to reveser your array 
+
+console.log(arr4.reverse()) //[ 'pineapple', 'custrad', 'chickoo', 'banana', 'apple' ]
+
+// inculdes --> if  the element is present 
+
+console.log(arr4.includes("banana"))
+console.log(arr4.includes("Banana"))
+
+
+// concat --> this is used to join 2 or more array 
+
+let num1 = [1,2,3]
+let num2 = [4,5,6]
+let num3= [7,8,9]
+
+console.log(num1.concat(num2,num3)) //[1, 2, 3, 4, 5,6, 7, 8, 9]
+
+// flat --> used to convert multiple intergated arrays into one 
+
+let arr6 = [1,2,3,[1],[true,false],"string",[4,5,6]]
+
+console.log(arr6.flat()) //[ 1, 2, 3, 1, true, false, 'string', 4, 5, 6 ]
+
+// find max and min number form the array
+
+let arr7 = [1,2,33,44,55,66,431,34567,76543,23,12,450,0]
+
+// find the largest number form the array 
+ console.log(Math.max(...arr7)) //76543
+
+// find the smallest number form the array 
+console.log((Math.min(...arr7))) //0
+
+
+//---------------------------------------------------------------------
+
+let arr8 = [1,2,3,4,5,6,7,8,9,10]
+
+for(let i=0;i<arr8.length;i++){
+  console.log(arr8[i])
+}
+
+/**
+ * 0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+ */

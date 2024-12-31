@@ -98,7 +98,7 @@ if(num2%2 == 0)
 // 1. Write a code to give grades to students according to their scores:
 // 80-100: A, 70-79: B, 60-69: C, 50-59: D, 0-49: F
 
-//let mark;
+let marks;
 if(let marks <= 100 && marks >= 80)
     console.log(`Students are scored A grade`)
     break;
@@ -119,7 +119,24 @@ elseif(let marks <= 49 && marks > 0)
 
 
 // 3. Check if a day is a weekend or working day. Take day input and check its case insensitively.
+let day = "Thursday"
 
+let formatday = day.toLocaleLowerCase()
+
+switch (formatday) {
+
+    case "monday": console.log("Work from Office ")
+    case "tuesday": console.log("Work from Office ")
+    case "wednesday": console.log("Work from Office ")
+        break
+    case "thrusday": console.log("WFH")
+    case "friday": console.log("WFH")
+        break
+    case "saturday": console.log("holiday ")
+    case "sunday": console.log("holiday ")
+        break
+    default: console.log("enter correct data ")
+}
 
 
 /**

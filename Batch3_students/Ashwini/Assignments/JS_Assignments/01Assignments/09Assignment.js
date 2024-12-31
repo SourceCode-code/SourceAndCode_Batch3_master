@@ -117,7 +117,10 @@ console.log("Sum of all odd numbers : " + oddSum)
 
 
 //   // 11) Develop a small script which generates a six-character random id.
-
+function generateRandomId() {
+    return Math.random().toString(36).substring(2, 8);
+}
+console.log(generateRandomId());
 
 //   // 12) Develop a small script which generates any number of characters random id.
 

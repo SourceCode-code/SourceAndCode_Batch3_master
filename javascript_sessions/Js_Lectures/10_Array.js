@@ -186,3 +186,180 @@ console.log(cc)
  console.log( str3) //male-->siddhant-->arjun-->gadakh-->26-->7020400749-->siddhantsource@gmail.com
 
 
+
+
+// sort()--> if you want to sort any array aplhabaticalyy
+
+let arr4 = ["apple","chickoo","pineapple","custrad","banana"]
+
+
+console.log(
+arr4.sort()) //[ 'apple', 'banana', 'chickoo', 'custrad', 'pineapple' ]
+
+let arr5=["2","5","8","7","1","2","6","7","6","19","666"]
+
+console.log(arr5.sort())
+
+// [1,2,......666]
+
+
+// reverse ()--->   this is used to reveser your array 
+
+console.log(arr4.reverse()) //[ 'pineapple', 'custrad', 'chickoo', 'banana', 'apple' ]
+
+// inculdes --> if  the element is present 
+
+console.log(arr4.includes("banana"))
+console.log(arr4.includes("Banana"))
+
+
+// concat --> this is used to join 2 or more array 
+
+let num1 = [1,2,3]
+let num2 = [4,5,6]
+let num3= [7,8,9]
+
+console.log(num1.concat(num2,num3)) //[1, 2, 3, 4, 5,6, 7, 8, 9]
+
+// flat --> used to convert multiple intergated arrays into one 
+
+let arr6 = [1,2,3,[1],[true,false],"string",[4,5,6]]
+
+console.log(arr6.flat()) //[ 1, 2, 3, 1, true, false, 'string', 4, 5, 6 ]
+
+// find max and min number form the array
+
+let arr7 = [1,2,33,44,55,66,431,34567,76543,23,12,450,0]
+
+// find the largest number form the array 
+ console.log(Math.max(...arr7)) //76543
+
+// find the smallest number form the array 
+console.log((Math.min(...arr7))) //0
+
+
+//---------------------------------------------------------------------
+
+let arr8 = [1,2,3,4,5,6,7,8,9,10]
+
+for(let i=0;i<arr8.length;i++){
+  console.log(arr8[i])
+}
+
+
+
+//---------------------------------------------------------------
+
+
+let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,19]
+
+let added2 =[]
+// add 2 in every element of this 
+
+for(let i =0;i<arr9.length;i++){
+ added2.push(arr9[i]+2)
+  
+}
+
+console.log(added2)
+
+
+//----------------------------------------------------
+
+//let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+// filter elements above 5 and add them in to a array 
+
+let filter5 = []
+
+// let i =5 ;i<=5;i++ 
+// console.log()
+
+
+for(let i =0 ; i<=arr9.length;i++){
+  if(arr9[i]>=5){
+    filter5.push(arr9[i])
+  }
+}
+
+console.log(filter5)
+
+
+// [
+//   5,  6,  7,  8,  9,
+//  10, 11, 12, 13, 14,
+//  15
+// ]
+
+
+
+//--------------------------------------------------------------
+
+//let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+let oddarr =[]
+let evenarr = []
+
+for(let i =0;i<arr9.length;i++){
+  if(arr9[i]%2===0){
+    evenarr.push(arr9[i])
+  }
+  else{
+    oddarr.push(arr9[i])
+  }
+}
+
+
+console.log(evenarr)
+console.log(oddarr)
+
+
+//----------------------------------------------------
+
+
+// let names = ["siddhant","arjun","pritam","amol","vaibhav"]
+
+// // for(let i =0 ;i <names.length;i++){
+// //   console.log(names[i].toUpperCase())
+// // }
+ 
+
+// let upper = []
+
+
+// for(let i =0 ;i <names.length;i++){
+//  if(names[i].startsWith("a")){
+//   upper.push(names[i])
+//  }
+// }
+ 
+
+// console.log(upper)
+
+
+
+//------------------------------------------------------
+
+//let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+let sum =0
+
+
+for(let i =0;i<arr9.length;i++){
+  sum = sum+arr9[i]
+}
+
+
+console.log(sum)
+
+
+//----------------------------------------------------------
+
+//let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,19]
+
+// for(let i=15;i<=arr9.length;i--){
+//   console.log(arr9[i])
+let revarr = []
+for(let i =arr9[arr9.length-1];i=0;i-- ){
+  console.log(arr9[i])
+}

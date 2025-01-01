@@ -484,3 +484,8 @@ VAIBHAV
 let uppername = names.map((el,index,arr)=>{ return el.toUpperCase()})
 
 console.log(uppername) //[ 'SIDDHANT', 'ARJUN', 'PRITAM', 'AMOL', 'VAIBHAV' ]
+
+
+let aname= names.filter((el,index,arr)=>{return el.startsWith("a")})
+
+console.log(aname)

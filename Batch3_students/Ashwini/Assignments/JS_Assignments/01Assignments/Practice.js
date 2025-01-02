@@ -69,4 +69,9 @@ let number = 1234.56789;
 //11 write program to generate a 10 digit random mobile number 
   
 
- 
+ let company=["google","amazon","facebook", "oracle", "microsoft","aaple"]
+
+ let findo=company.filter((el, index, arr)=>{
+    return el.includes("o")
+ })
+ console.log(findo)

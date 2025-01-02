@@ -157,7 +157,7 @@ console.log(arr1)
 //[ 'siddhant', 'arjun', 'gadakh', 26, '7020400749' ]
 
 //splice()----> method used to remove any element form the array 
-
+++
 // syntax splice(starting index , number elemnts )
 
 

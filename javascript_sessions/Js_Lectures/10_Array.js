@@ -246,16 +246,120 @@ for(let i=0;i<arr8.length;i++){
   console.log(arr8[i])
 }
 
-/**
- * 0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
- */
+
+
+//---------------------------------------------------------------
+
+
+let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,19]
+
+let added2 =[]
+// add 2 in every element of this 
+
+for(let i =0;i<arr9.length;i++){
+ added2.push(arr9[i]+2)
+  
+}
+
+console.log(added2)
+
+
+//----------------------------------------------------
+
+//let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+// filter elements above 5 and add them in to a array 
+
+let filter5 = []
+
+// let i =5 ;i<=5;i++ 
+// console.log()
+
+
+for(let i =0 ; i<=arr9.length;i++){
+  if(arr9[i]>=5){
+    filter5.push(arr9[i])
+  }
+}
+
+console.log(filter5)
+
+
+// [
+//   5,  6,  7,  8,  9,
+//  10, 11, 12, 13, 14,
+//  15
+// ]
+
+
+
+//--------------------------------------------------------------
+
+//let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+let oddarr =[]
+let evenarr = []
+
+for(let i =0;i<arr9.length;i++){
+  if(arr9[i]%2===0){
+    evenarr.push(arr9[i])
+  }
+  else{
+    oddarr.push(arr9[i])
+  }
+}
+
+
+console.log(evenarr)
+console.log(oddarr)
+
+
+//----------------------------------------------------
+
+
+// let names = ["siddhant","arjun","pritam","amol","vaibhav"]
+
+// // for(let i =0 ;i <names.length;i++){
+// //   console.log(names[i].toUpperCase())
+// // }
+ 
+
+// let upper = []
+
+
+// for(let i =0 ;i <names.length;i++){
+//  if(names[i].startsWith("a")){
+//   upper.push(names[i])
+//  }
+// }
+ 
+
+// console.log(upper)
+
+
+
+//------------------------------------------------------
+
+//let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+let sum =0
+
+
+for(let i =0;i<arr9.length;i++){
+  sum = sum+arr9[i]
+}
+
+
+console.log(sum)
+
+
+//----------------------------------------------------------
+
+//let arr9 = [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,19]
+
+// for(let i=15;i<=arr9.length;i--){
+//   console.log(arr9[i])
+let revarr = []
+for(let i =arr9[arr9.length-1];i=0;i-- ){
+  console.log(arr9[i])
+}

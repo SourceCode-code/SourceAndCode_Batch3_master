@@ -114,9 +114,11 @@ console.log(newstr1)
 let newstr2 = str6.substring(0, 3)
 console.log(newstr2) 
 
+console.log(str6.indexOf("s"))
 
 names=["sonali","rajabhau","khosle"]
 for(let i=0;i<names.length;i++)
 {
     console.log(names[i].toUpperCase)
 }
+

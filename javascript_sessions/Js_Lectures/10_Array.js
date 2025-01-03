@@ -490,3 +490,85 @@ let aname= names.filter((el,index,arr)=>{return el.startsWith("a")})
 
 console.log(aname)
 
+//--------------------------------------------------
+ 
+
+let arr11 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+let sum2 =0
+for(i=0;i<arr11.length;i++){
+  sum2 = sum2+arr11[i]
+}
+
+console.log(sum2)
+
+
+
+// reduce ()--> this method is used to get the sum of all the elements in the array 
+
+let sum3 = arr11.reduce((acc,el,index,arr)=>{
+return el+acc
+},0)
+
+
+console.log(sum3)
+
+//--------------------------------------------------------------------------------------
+
+// some --> check if some of  the varaibles in array and return true or false (||) 
+//every --> check every element of array (&&)
+
+
+// let arr11 = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+
+// some --> check if some of  the varaibles in array and return true or false (||) 
+let checksome= arr11.some((el,index,arr)=>{
+  return el>5
+})
+
+console.log(checksome) //true
+
+
+//every --> check every element of array (&&)
+let checkevery= arr11.every((el,index,arr)=>{
+  return el>5
+})
+
+console.log(checkevery)  //false
+
+
+
+//-----------------------------------------------------------------------------------------
+
+
+let company = ["google","amazon","facebook","oracle","Microsoft","apple","IBM"]
+
+
+// create a program which will retrun me the companies which has O in there words in a new array 
+
+// console.log(company.includes("o"))
+
+// let oarr = []
+
+// // for(let i=0;i<company.length;i++){
+// //   if(company[i].includes("o")){
+// //     oarr.push(company[i])
+// //   }
+// // }
+
+// // console.log(oarr)
+
+
+
+let findo=company.filter((el,index,arr)=>{
+  return el.includes("o")
+})
+
+console.log(findo) //[ 'google', 'amazon', 'facebook', 'oracle', 'Microsoft' ]
+
+
+
+
+
+

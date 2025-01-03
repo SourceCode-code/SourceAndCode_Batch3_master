@@ -46,7 +46,5 @@ Calculate how many days are left until a specific date (input: 'YYYY-MM-DD').
 /* 
 Question 4: 
 Check if a current  year is a leap year.
-
 */
-
 

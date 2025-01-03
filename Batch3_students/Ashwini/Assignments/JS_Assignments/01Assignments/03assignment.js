@@ -67,5 +67,5 @@ let str3 = "qwertyuiopasdfghjklzxcvbnm"
 //console.log("random element : "+Math.random(str3))
 
 //15 write a program to generate a random odd number form 15-150
-randomOdd = Math.floor(Math.random()*((150-15)/2+1))*2+15;
+ let randomOdd = Math.floor(Math.random()*((150-15)/2+1))*2+15;
 console.log("Odd number : "+randomOdd);

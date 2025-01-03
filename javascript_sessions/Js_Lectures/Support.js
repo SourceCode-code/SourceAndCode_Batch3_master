@@ -104,10 +104,71 @@
 // let name= "Amol Kantilal Jadhav"
 // console.log(name.split(" "))
 
-let arr =["Amol","kantilal","jadhav",24,97600410,true,undefined,null] //length 
+// let arr =["Amol","kantilal","jadhav",24,97600410,true,undefined,null] //length 
 
-// console.log(str.length)
-for(let i=0;i<=arr.length-1;i++){
-    console.log(arr[i])
-}
+// // console.log(str.length)
+// for(let i=0;i<=arr.length-1;i++){
+//     console.log(arr[i])
+// }
 
+// let num = [2,3,5,6,8,9,10,1,4]
+// let check = num.sort((a,b)=> a-b)
+// console.log(check) // 
+
+// let arr4 = ["apple","chickoo","pineapple","custrad","banana"]
+// // console.log(arr4.reverse()) // 
+// // 
+// reve = [] 
+// reve1=[]
+// for (let i=arr4.length-1;i>=0;i--){
+// reve.push(arr4[i])      //  add the lat element
+// reve1.unshift(arr4[i]) //  add the first element
+// }
+// console.log(reve)
+// console.log(reve1)
+
+let arr7 = [1,2,33,44,55,66,431,34567,76543,23,12,450,0]
+// let check = Math.max(...arr7)
+// console.log(check)
+// let check2= Math.min(...arr7)
+// console.log(check2)
+
+// using the loops
+
+// let num = []
+// let min= 0
+// for (let i=0;i<=arr7.length-1;i++){
+//     if(arr7[i]>=min){
+//        min =  arr7[i]
+//     }
+// }
+// console.log(min)
+
+// let arr = [1,2,3,3,3,4,4,4,5,5,6,7,7,8,8,8,8,9,2,2,3,3,7,1]
+// let newArr=[]
+// for(let i=0;i<=arr.length-1;i++){
+//     if(arr[i]===8){
+//         newArr.push(i)
+//     }
+// }
+// console.log(newArr[0],newArr[newArr.length-1])
+
+// let arr = [1,2,3,3,3,4,4,4,5,5,6,7,7,8,8,8,8,8,9,2,2,3,3,7,1]
+// let arra=[]
+// for(let i=arr.length-1;i>=0;i--){
+//     if(arr[i]===8){
+//         arra.push(i)
+//         break
+//     }
+// for(let i=0;i<=arr.length-1;i++){
+//     if(arr[i]===8){
+//         arra.push(i)
+//         break
+//     }
+// }
+// }
+// console.log(arra)
+let newche = [[1,2,[3,4],5],[2,3,45],[1,2,3,4,5]]
+let ar =newche.flat()
+
+console.log(ar)

@@ -39,6 +39,11 @@ for (let i = 0; i <= n; i++) {
 //   // #####
 //   // ######
 //   // #######
+let num2=1
+for(let i=1; i<=7; i++)
+{
+    console.log(`#`.repeat(num2++))
+}
 
 //for(let i=1; i<=7; i++)
 //{
@@ -153,13 +158,28 @@ console.log(generateRandomId());
 // 22
 // 1
 
+let num=4
+for (let i=4; i>=1; i--)
+{
+    console.log(String(i).repeat(num--))
+}
+
+
 // // 4
 // 1111
 // 222
 // 33
 // 4
 
-
+//1
+//22
+//333
+//4444
+let num1=1
+for (let i=1; i<=4; i++)
+{
+    console.log(String(i).repeat(num1++))
+}
 
 
 //16) check if the given string is a palindrome 
@@ -171,5 +191,8 @@ let str = "racecar"
 
 //17) print the longest word form the given string
 
- str = " hello i am learning javascript and currently i am seeing the topic loops"
- 
+ let str2 = " hello i am learning javascript and currently i am seeing the topic loops"
+ for(let i=0; i<str2.length; i++)
+ {
+    console.log(str2.length(i))
+ }

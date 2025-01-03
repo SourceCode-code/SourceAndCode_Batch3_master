@@ -69,7 +69,7 @@ num > num1 ? console.log(`The number ${num} is grater than ${num1} number`)
 
 // 4. Check if a number is even or odd.
 console.log("---------even number----------")
-let num2=22
+let num2=40
 if(num2%2 == 0)
 {
     console.log("The given number is even")
@@ -79,6 +79,11 @@ if(num2%2 == 0)
  * Enter a number: 22
  * 22 is an even number.
  */
+console.log("---------even number----------")
+let num4=22
+if(num4%2 == 0)
+{
+    console.log("The given number is even")
  //let num1=Math.floor(Math.random())*10
   
  /* Enter a number: 99

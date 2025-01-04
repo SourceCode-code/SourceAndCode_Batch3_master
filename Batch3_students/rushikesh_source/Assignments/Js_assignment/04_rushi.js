@@ -5,16 +5,16 @@
 //console.log(str1.length)//11
 
 // 2. Retrieve the last character of the string "automation".
-let str2 = "automation";
+//let str2 = "automation";
 //console.log(str2.length)//10
 //console.log(str2[str2.length-1])
 
 // 3. Convert the string "learning" to uppercase.
-let str3 = "learning";
+//let str3 = "learning";
 //console.log(str3.toUpperCase())
 
 // 4. Check if the string "coding" includes the word "code".
-let str4 = "coding";
+//let str4 = "coding";
 //console.log(str4.includes("code"))
 
 // 5. Trim the spaces from the string "   JavaScript   ".
@@ -24,7 +24,7 @@ let str4 = "coding";
 
 // Tough and Advanced Questions
 // 6. Extract the first 5 characters from the string "PlaywrightAutomation".
-let str6 = "PlaywrightAutomation";
+//let str6 = "PlaywrightAutomation";
 
 
 // 7. Split the string "Cypress is fun" by spaces and print each word on a new line.
@@ -46,48 +46,49 @@ let str6 = "PlaywrightAutomation";
 // 11. Write a check if  a string and returns true if it includes the word "API",
 
 // 12. Extract the last 4 characters from the string "automation testing".
-let str12 = "automation testing";
+//let str12 = "automation testing";
 
 // 13. Convert the string "HELLOworld" to lowercase and remove spaces from the beginning and end.
-let str13 = " HELLOworld ";
-console.log( str13.toUpperCase().trim().length) 
+//let str13 = " HELLOworld ";
+//console.log( str13.toUpperCase().trim().length) 
 
 // 14. Replace the first occurrence of "test" with "exam" in the string "test your code with a test case".
-let str14 = "test your code with a test case";
-console.log(str14.replace("test" , "exam" ))
+//let str14 = "test your code with a test case";
+//console.log(str14.replace("test" , "exam" ))
 
 //thanks 
 //-------------------------------------------------------------------------------------------------//
 // Exercise: Level 1
 // 1. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
-let challenge = "30 Days Of JavaScript"
+//let Challenge = "30 Days Of JavaScript"
 
 // 2. Print the string on the browser console using console.log()
-
-
+//let challenge = "30 Days Of JavaScript" 
+//console.log(Challenge)
 // 3. Print the length of the string on the browser console using console.log()
-
+ //console.log(challenge.length)
 
 // 4. Change all the string characters to capital letters using toUpperCase() method
-
+//console.log(challenge.toUpperCase())
 
 // 5. Change all the string characters to lowercase letters using toLowerCase() method
-
+//console.log(challenge.toLowerCase())
 
 // 6. Cut (slice) out the first word of the string using substr() or substring() method
  // Using substring method
+ //console.log(challenge.substring(0,2))
 
 // 7. Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
-
+//console.log(challenge.substring(3,challenge.length))
 
 // 8. Check if the string contains a word Script using includes() method
-
+//console.log(challenge.includes("Script"))
 
 // 9. Split the string into an array using split() method
-
+//console.log(challenge.split(''))
 
 // 10. Split the string 30 Days Of JavaScript at the space using split() method
-
+//console.log(challenge.split(' '))
 
 // 11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
 
@@ -141,7 +142,7 @@ let challenge = "30 Days Of JavaScript"
 
 
 // 6. I hope this course is not full of jargon. Check if jargon is in the sentence.
-let sentence2 = 'I hope this course is not full of jargon.';
+//let sentence2 = 'I hope this course is not full of jargon.';
 
 
 // 7. Generate a random number between 0 and 100 inclusively.
@@ -153,7 +154,7 @@ let sentence2 = 'I hope this course is not full of jargon.';
 // 9. Generate a random number between 0 and 255 inclusively.
 
 // 10. Access the 'JavaScript' string characters using a random number.
-let jsString = 'JavaScript';
+//let jsString = 'JavaScript';
 
 
 // 11. Use console.log() and escape characters to print the following pattern:
@@ -164,3 +165,8 @@ let jsString = 'JavaScript';
 // 5 1 5 25 125
 
 // 12. Use substr to slice out the phrase because because because from the following sentence:
+
+
+
+//----------------------------using for practis------------------------------------------------
+

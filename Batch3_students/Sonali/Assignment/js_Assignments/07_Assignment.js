@@ -78,5 +78,18 @@ let cur_date=date.toLocaleString("en-gb",{weekday:"long",day:"2-digit",month:"lo
 
 //Question 4: 
 //Check if a current  year is a leap year.
+let years=new Date()
+let cur_years=years.getFullYear()
+
+if(cur_years%4==0||cur_years%100==0||cur_years%400==0){
+    console.log(`year is leap`)
+}
+else{
+    confirm.log("not")
+}
+
+let date3 = new Date()
+let curYear = date3.getFullYear()
+curYear%4==0||curYear%100!==0&&curYear%400==0?console.log(`${curYear} is a leap year`):console.log(`${curYear} is not leap year`)
 
 

@@ -43,12 +43,30 @@
 // console.log(sum)
 
 
-console.log(Math.floor(Math.random()*100000))
+// console.log(Math.floor(Math.random()*100000))
 
 
-let randomId1 = ""
-for(let i=1;i<=6;i++){
-    randomId1+=Math.round(Math.random()*i)
-}  
-console.log(randomId1)
+// let randomId1 = ""
+// for(let i=1;i<=6;i++){
+//     randomId1+=Math.round(Math.random()*i)
+// }  
+// console.log(randomId1)
 
+let a=(Math.round(Math.random()*25))
+console.log(2*(a))
+ // 14. Write a program to pick a random element from string "qwertyuiopasdfghjklzxcvbnm" and log the selected element.
+ let string="qwertyuiopasdfghjklzxcvbnm" 
+ let random=Math.round(Math.random()*string.length)
+ console.log(string[random])   
+
+ let RANDOM=Math.round(Math.random()*string.length)
+console.log(string[random])
+
+let s="30 Days Of JavaScript"
+console.log(s.indexOf[a])
+
+
+////---------------------------------------------------------
+// generate random odd number form 30 to 90
+//generate random prime number form 45-200
+//Write a program to pick a random element from string "qwertyuiopasdfghjklzxcvbnm" and log the selected element.

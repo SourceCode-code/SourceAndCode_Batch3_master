@@ -129,6 +129,8 @@ console.log(challeng.charAt(15))
 console.log(challeng.charCodeAt(J))
 
 // // 15. Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
+let s="30 Days Of JavaScript"
+console.log(s.indexOf[a])
 
 
 // // 16. Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.

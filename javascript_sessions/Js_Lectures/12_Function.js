@@ -98,3 +98,24 @@ let x =myname("siddhant ")
 
 console.log( x.toUpperCase())
 
+
+
+let name= myname("hello")
+
+console.log(name)
+
+
+function num (v){
+ return v*v
+}
+
+let num2sq= num(2)
+console.log(num2sq)
+
+console.log(num2sq-1)
+
+let nu4 = num(num2sq
+
+)
+
+console.log(nu4)

@@ -168,7 +168,55 @@ let arr7 = [1,2,33,44,55,66,431,34567,76543,23,12,450,0]
 // }
 // }
 // console.log(arra)
-let newche = [[1,2,[3,4],5],[2,3,45],[1,2,3,4,5]]
-let ar =newche.flat()
+// let newche = [[1,2,[3,4],5],[2,3,45],[1,2,3,4,5]]
+// let ar =newche.flat(Infinity)
+// console.log(ar)
 
-console.log(ar)
+
+//arr11 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+// let check = arr11.some((el,index,arr)=>{
+//     return el>16
+// })
+// console.log(check)
+
+// check2 =arr11.every((el,index,arr)=>{
+// return el<10
+// })
+// console.log(check2)
+
+// let sum  = arr11.reduce((acc,el,index,arr)=>{
+//   return acc+el// return el+index
+// },0)
+// console.log(sum)
+
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ];
+  //find the middle country(ies) in the countries array
+  // Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
+
+//   let kk = "my name is amol kantilal jadhav"
+//   let check = kk.split(" ") 
+
+
+
+
+
+
+
+
+
+
+
+
+

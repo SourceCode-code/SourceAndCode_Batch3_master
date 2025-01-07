@@ -220,7 +220,17 @@ let countries2 = countries.slice(0, 10)
 console.log(countries2)
 
 // Find the middle country(ies) in the countries array
-console.log(Math.floor(countries.length / 2))
-console.log(countries[5])
+let count = Math.floor(countries.length / 2)
+console.log(count)
+console.log(countries[count])
 
 // Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
+console.log(countries.length)
+console.log(countries.unshift("India"))
+console.log(countries)
+
+let firstHalf = countries.slice(0, countries.length/2)
+console.log(firstHalf)
+
+let secondHalf = countries.slice(countries.length/2, countries.length)
+console.log(secondHalf)

@@ -28,7 +28,7 @@ const countries = [
   
   
   // Declare an empty array
-  // Declare an array with more than 5 number of elements
+  // Declare an array with more than 5 number of elements 
   // Find the length of your array
   // Get the first item, the middle item and the last item of the array
   // Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
@@ -89,3 +89,6 @@ const countries = [
   // Slice the first ten countries from the countries array
   // Find the middle country(ies) in the countries array
   // Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
+
+
+

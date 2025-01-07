@@ -257,3 +257,50 @@ for(let i=0;i<arrr8.length;i++){
     multiple5.push(arrr8[i]*5)
 }
 console.log(multiple5)
+
+
+// multiple 5 in every element of the array and give me a new array 
+let multi=["1","2","3","4","5","6","7","8","9","10"]
+let multi5=[]
+for(let i=0;i<multi.length;i++){
+    multi5.push(multi[i]*5)
+}
+console.log(multi5)
+
+let multi7=[]
+for(let i=0;i<multi.length;i++){
+    if(multi[i]>=7){
+        multi7.push(multi[i])
+    }
+}
+console.log(multi7)
+
+
+  // Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+let itcompanies=["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
+
+console.log(itcompanies)
+
+//map
+//table of 5
+//let multi=["1","2","3","4","5","6","7","8","9","10"]
+let table5=multi.map((el,index,arr)=>{
+return el*5})
+console.log(table5)
+
+// find all the even number and store them in an array 
+let evenarray=multi.filter((el,index,arr)=>{
+    return el%2==0
+})
+console.log(evenarray)
+
+let oddarray=multi.filter((el,index,arr)=>{
+    return el%2!=0
+})
+console.log(oddarray)
+
+let arrr10 = [1,2,3,4,5,6,7,8,9,10]
+let greter5=arrr10.filter((el,index,arr)=>{
+    return el>=5
+})
+console.log(greter5)

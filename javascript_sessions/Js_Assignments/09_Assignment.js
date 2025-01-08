@@ -57,6 +57,7 @@
 //   // 14) Write a script which generates a random rgb color number.
 
 //15) print the following patterns 
+
 //   * 
 //  ***
 // ******

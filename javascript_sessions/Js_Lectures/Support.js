@@ -210,8 +210,73 @@ let arr7 = [1,2,33,44,55,66,431,34567,76543,23,12,450,0]
 
 
 
+// //aarow function
+// let myname = ()=>{
+// }
+// myname()
+
+// // delecrative type
+// function myname(){
+
+// }myname()
+
+// //expression type
+
+// let myname= function (){
+
+// }
+// myname()
+
+// //declartive type
+// function Myname(firstname,middlename,lastname){
+//   console.log(`${firstname} ${middlename} ${lastname}`)  
+// }
+// Myname("Amol","Kantilal","Jadhav")
 
 
+// //expression tpe
+// let Myname=function(firstname,middlename,lastname){
+//   console.log(`${firstname} ${middlename} ${lastname}`)  
+// }
+
+//  Myname("Amol","Kantilal","Jadhav")
+
+//  //arrow function
+// let Myname=(firstname,middlename,lastname)=>{
+//   console.log(`${firstname} ${middlename} ${lastname}`)  
+// }
+
+//  Myname("Amol","Kantilal","Jadhav")
+
+
+ //without parameter and return type
+// function Myname(){
+//   let str = `my name is amol jadhav`
+//   console.log(str.length)
+//   console.log(str)
+//   console.log(str.split(" "))
+// }
+// Myname()
+
+
+//with parameter whout return typeit
+// let Myname=function(str){
+//   console.log(str.length)
+//   console.log(str)
+//   console.log(str.split(" "))
+// }
+
+//  Myname(`my name is AMOL JADHAV`)
+//  Myname(`my name is Rushi JADHAV`)
+
+ //with parameter with return type
+// let Myname=(firstname,middlename,lastname)=>{
+//   return (`${firstname} ${middlename} ${lastname}`)  
+// }
+//  console.log(Myname("Amol","Kantilal","Jadhav"))
+
+//  let check2 = Myname("Rushi","Jadhav")
+//  console.log(check2)
 
 
 

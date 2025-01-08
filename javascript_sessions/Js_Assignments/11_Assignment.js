@@ -1,5 +1,7 @@
 // Exercise: Level 1
 
+
+
 const countries = [
     'Albania',
     'Bolivia',
@@ -26,16 +28,14 @@ const countries = [
   
   
   // Declare an empty array
-  // Declare an array with more than 5 number of elements 
+  // Declare an array with more than 5 number of elements
   // Find the length of your array
   // Get the first item, the middle item and the last item of the array
   // Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
-
   // Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
   // Print the array using console.log()
   // Print the number of companies in the array
   // Print the first company, middle and last company
-
   // Print out each company
   // Change each company name to uppercase one by one and print them out
   // Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon are big IT companies.
@@ -48,7 +48,7 @@ const countries = [
   // Slice out the middle IT company or companies from the array
   // Remove the first IT company from the array
   // Remove the middle IT company or companies from the array
-  // Remove the last IT company from the array 
+  // Remove the last IT company from the array
   // Remove all IT companies
   
   // Exercise: Level 2
@@ -78,17 +78,6 @@ const countries = [
   
   // Exercise: Level 3
   
-<<<<<<< HEAD:javascript_sessions/Js_Assignments/10_Assignment.txt
-// The following is an array of 10 students' ages:
-// Sort the array and find the min and max age
-// Find the median age(one middle item or two middle items divided by two)
-// Find the average age(all items divided by number of items)
-// Find the range of the ages (max minus min)
-// Compare the value of (min - average) and (max - average), use abs() method
-// Slice the first ten countries from the countries array
-// Find the middle country(ies) in the countries array
-// Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
-=======
   // The following is an array of 10 students' ages:
   // const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
   // Sort the array and find the min and max age
@@ -100,7 +89,3 @@ const countries = [
   // Slice the first ten countries from the countries array
   // Find the middle country(ies) in the countries array
   // Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
-
-
-
->>>>>>> 293f9e057261e715673c1f5d7d40a79a00495ba0:javascript_sessions/Js_Assignments/10_Assignment.js

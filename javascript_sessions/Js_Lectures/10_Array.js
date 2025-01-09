@@ -35,8 +35,11 @@ console.log(array4)
 //each value in array is stored in indexes
 
 //             0         1        2      3    4
+
+
 let arr = ["siddhant", "arjun", "gadakh", 26, "7020400749"]
 console.log(arr)
+
 
 
 // array has one property --> length 
@@ -51,7 +54,7 @@ console.log(arr.length) //5
 
 //getting element form string
 let str = "siddhant"
-console.log(str[0])
+console.log(str[0]) //  
 
 // getting element form array 
 
@@ -65,7 +68,9 @@ console.log(`the length of ${arr[0]} is ${arr[0].length}`)
 
 // let str = "siddhant"
 
-let strar = str.split("")
+let name = "amol Kantilal Jadhav"
+let strar= str.split("")
+
 
 console.log(strar)
 /**
@@ -158,13 +163,8 @@ console.log(arr1)
 
 //splice()----> method used to remove any element form the array 
 
-// syntax splice(starting index , number elemnts )
-
-
-arr1.splice(1, 3)
-
-
-
+// syntax splice(starting index , number elemnts ) // substr
+arr1.splice(1,3)
 console.log(arr1)
 
 //slice ()-- method used to remove any element form the array 
@@ -172,7 +172,8 @@ console.log(arr1)
 
 let arr2 = ['male', 'siddhant', 'arjun', 'gadakh', 26, '7020400749', 'siddhantsource@gmail.com']
 
-let cc = arr2.slice(1, 6)
+
+let cc =arr2.slice(1,6) // not including 
 
 console.log(cc)
 
@@ -181,11 +182,11 @@ console.log(cc)
 //join--> used to convert array to string 
 //synatx arrayname.join("chacrter to join")
 let str3 = arr2.join("-->")
+ HEAD
+ console.log( str3) //male-->siddhant-->arjun-->gadakh-->26-->7020400749-->siddhantsource@gmail.com
 
 
 console.log(str3) //male-->siddhant-->arjun-->gadakh-->26-->7020400749-->siddhantsource@gmail.com
-
-
 
 
 // sort()--> if you want to sort any array aplhabaticalyy
@@ -252,9 +253,9 @@ for (let i = 0; i < arr8.length; i++) {
 
 
 let arr9 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 19]
+let added2 =[]
 
-let added2 = []
-// add 2 in every element of this 
+// add 2 in every element of this
 
 for (let i = 0; i < arr9.length; i++) {
   added2.push(arr9[i] + 2)

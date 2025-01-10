@@ -130,10 +130,11 @@ console.log(challeng.charCodeAt(J))
 
 // // 15. Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
 let s="30 Days Of JavaScript"
-console.log(s.indexOf[a])
+console.log(s.indexOf("a"))
 
 
 // // 16. Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
+console.log(s.lastIndexOf("s"))
 
 
 // // 17. Use indexOf to find the position of the first occurrence of the word because in the following sentence:

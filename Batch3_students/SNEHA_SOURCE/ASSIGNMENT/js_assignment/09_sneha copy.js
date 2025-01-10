@@ -132,6 +132,8 @@ console.log(sum)
 
 
 //   // 11) Develop a small script which generates a six-character random id.
+let stri="a,s,d,f,g,h,j,k,l,z,x,,v,b,n,m,q,w,e,r,t,y,u,i,o,p"
+console.log(Math.round(Math.random()*100000(stri.length)))
 
 
 
@@ -201,6 +203,12 @@ for(let i=1;i<=4;i++){
 
 //16) check if the given string is a palindrome 
 let str = "racecar"
+let rev=""
+for(let i=str.length-1;i>=0;i--){
+    rev+=str[i]
+}
+console.log(revStr===str)
+
 
 
 // true

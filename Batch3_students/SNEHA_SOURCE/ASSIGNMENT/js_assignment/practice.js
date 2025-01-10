@@ -63,10 +63,24 @@ console.log(2*(a))
 console.log(string[random])
 
 let s="30 Days Of JavaScript"
-console.log(s.indexOf[a])
+console.log(s.indexOf("a"))
 
+
+
+let stri="a,s,d,f,g,h,j,k,l,z,x,,v,b,n,m,q,w,e,r,t,y,u,i,o,p"
+console.log(Math.round(Math.random()*6(stri.length)))
 
 ////---------------------------------------------------------
 // generate random odd number form 30 to 90
 //generate random prime number form 45-200
 //Write a program to pick a random element from string "qwertyuiopasdfghjklzxcvbnm" and log the selected element.
+//Develop a small script which generates a six-character random id.
+ // 12) Develop a small script which generates any number of characters random id.
+
+
+ 
+ // // 4
+// 1111
+// 222
+// 33
+// 4

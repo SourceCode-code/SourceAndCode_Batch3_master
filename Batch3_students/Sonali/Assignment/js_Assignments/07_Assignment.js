@@ -81,7 +81,7 @@ let cur_date=date.toLocaleString("en-gb",{weekday:"long",day:"2-digit",month:"lo
 let years=new Date()
 let cur_years=years.getFullYear()
 
-if(cur_years%4==0||cur_years%100==0||cur_years%400==0){
+if(cur_years%4==0&&cur_years%100==0&&cur_years%400!=0){
     console.log(`year is leap`)
 }
 else{

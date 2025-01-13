@@ -1,4 +1,5 @@
- ASSIGNMENT NO 10
+ ASSIGNMENT
+  10
 
 // // 1) Iterate 0 to 10 using for loop, do the same using while
 // using a for loop :
@@ -24,6 +25,7 @@
   let n = 10;
   for( let i = 0; i<=n; i++){
       console.log(i);
+
   }
  
   
@@ -57,7 +59,7 @@
  }
 
 //   // 6) Use for loop to iterate from 0 to 100 and print only even numbers     
-  for ( let i =0; i<=100;; i++){
+  for ( let i =0; i<=100; i++){
     i (i % 2 === 0){
         console.log(i);
     }
@@ -65,7 +67,8 @@
   
 //   // 7) Use for loop to iterate from 0 to 100 and print only odd numbers  
      for(let i=1;i<=100;i+=2){
-    console.log(i);
+    console.log(i)
+    
   
 //   // 8) Use for loop to iterate from 0 to 100 and print only prime numbers
       

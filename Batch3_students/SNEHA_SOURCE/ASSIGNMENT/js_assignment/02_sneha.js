@@ -77,11 +77,15 @@ console.log(Math.random(x1))
 // 8. Write a program  that rounds any given number to the nearest multiple of 5.
 // Example:if 28 is given  should return 30, 32 should return 30.
 
-//9 generate random even number upto 50
 
-//console.log(Math.floor(Math.random()*51))
+
+//9 generate random even number upto 50
+let a1=(Math.round(Math.random()*25))
+console.log(2*(a1))
+
 
 //10 generate random odd number form 30 to 90
+let b1=(Math.round(Math.random)*25)
 
 //11 generate random prime number form 45-200
 

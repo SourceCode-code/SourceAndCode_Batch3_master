@@ -278,6 +278,44 @@ let arr7 = [1,2,33,44,55,66,431,34567,76543,23,12,450,0]
 //  let check2 = Myname("Rushi","Jadhav")
 //  console.log(check2)
 
+let personalinfo={
+  firstname:"Adesh",
+  lastname:"Devkar",
+  age:24,
+  city:"Tuljapur",
+ state:"Maharashtra"
+}
+
+// console.log(personalinfo)
+
+// we can do operation by using .(dot) and bracket[]
+//  returive 
+console.log(personalinfo.firstname)
+console.log(personalinfo["firstname"])
+
+//  update the value
+personalinfo.firstname="ADESH"
+personalinfo.age=25 
+console.log(personalinfo)
+ //
+ // using bracket
+ personalinfo["firstname"]="ADDESHH"
+ console.log(personalinfo)
+
+ // ho to add the values 
+ personalinfo["country"]="India"
+ //personalinfo.country="India"
+ console.log(personalinfo)
+
+//  delete personalinfo.firstname
+//  console.log(personalinfo)
+
+ delete personalinfo["age"]
+ console.log(personalinfo)
+
+
+
+
 
 
 

@@ -155,12 +155,24 @@ checkSeason("February")
 // swapValues(3, 4) // x => 4, y=>3
 // swapValues(4, 5) // x = 5, y = 4
 
+function swapValues(a,b){
+let temp=0,  x, y;
+temp=x;
+x=y;
+y=temp;
+return console.log(x,y)
+}
+swapValues(5,6)
 // 6 Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (don't use method).
 
 // console.log(reverseArray([1, 2, 3, 4, 5]))
 // //[5, 4, 3, 2, 1]
 // console.log(reverseArray(['A', 'B', 'C']))
 // //['C', 'B', 'A']
+
+function reverseArray([a,b,c,d]){
+
+}
 
 // 7 Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
 
@@ -193,6 +205,10 @@ checkSeason("February")
 
 // console.log(randomHexaNumberGenerator());
 // '#ee33df'
+
+function randomHexaNumberGenerator(){
+  return console.log(randomHexaNumberGenerator());
+}
 
 // 18 Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.
 

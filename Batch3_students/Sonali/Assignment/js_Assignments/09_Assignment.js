@@ -125,7 +125,10 @@ for (let i = 1; i <= 6; i++) {
 console.log(randomID)
 
 //   // 12) Develop a small script which generates any number of characters random id.
-
+for(let i=0;i<=6;i++)
+{
+    console.log(i)
+}
 
 
 //   // 13) Write a script which generates a random hexadecimal number.

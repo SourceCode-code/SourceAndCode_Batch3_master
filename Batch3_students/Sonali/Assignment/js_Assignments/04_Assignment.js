@@ -18,7 +18,7 @@ console.log(str3.toUpperCase())
 
 // 4. Check if the string "coding" includes the word "code".
 let str4 = "coding";
-console.log(str4.includes("coding"))
+console.log(str4.includes("code"))
 
 
 // 5. Trim the spaces from the string "   JavaScript   ".
@@ -29,6 +29,8 @@ console.log(str5.trim().length)
 // Tough and Advanced Questions
 // 6. Extract the first 5 characters from the string "PlaywrightAutomation".
 let str6 = "PlaywrightAutomation";
+let strr6=str6.slice(0,5)
+console.log(strr6)
 
 
 // 7. Split the string "Cypress is fun" by spaces and print each word on a new line.
@@ -97,11 +99,12 @@ console.log(str21.toLowerCase())
 
 // 6. Cut (slice) out the first word of the string using substr() or substring() method
 // Using substring method
-console.log(str21.substr(0,3))
+console.log(str21.substr(0,1))
 //  console.log(challeng.substring(0,2))
 
 
 // 7. Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
+console.log(str21.substr(0,2))
 
 
 // 8. Check if the string contains a word Script using includes() method

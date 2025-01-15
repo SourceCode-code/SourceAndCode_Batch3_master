@@ -278,46 +278,86 @@ let arr7 = [1,2,33,44,55,66,431,34567,76543,23,12,450,0]
 //  let check2 = Myname("Rushi","Jadhav")
 //  console.log(check2)
 
-let personalinfo={
-  firstname:"Adesh",
-  lastname:"Devkar",
-  age:24,
-  city:"Tuljapur",
- state:"Maharashtra"
-}
+// let personalinfo={
+//   firstname:"Adesh",
+//   lastname:"Devkar",
+//   age:24,
+//   city:"Tuljapur",
+//  state:"Maharashtra"
+// }
 
+// // console.log(personalinfo)
+
+// // we can do operation by using .(dot) and bracket[]
+// //  returive 
+// console.log(personalinfo.firstname)
+// console.log(personalinfo["firstname"])
+
+// //  update the value
+// personalinfo.firstname="ADESH"
+// personalinfo.age=25 
 // console.log(personalinfo)
-
-// we can do operation by using .(dot) and bracket[]
-//  returive 
-console.log(personalinfo.firstname)
-console.log(personalinfo["firstname"])
-
-//  update the value
-personalinfo.firstname="ADESH"
-personalinfo.age=25 
-console.log(personalinfo)
- //
- // using bracket
- personalinfo["firstname"]="ADDESHH"
- console.log(personalinfo)
-
- // ho to add the values 
- personalinfo["country"]="India"
- //personalinfo.country="India"
- console.log(personalinfo)
-
-//  delete personalinfo.firstname
+//  //
+//  // using bracket
+//  personalinfo["firstname"]="ADDESHH"
 //  console.log(personalinfo)
 
- delete personalinfo["age"]
- console.log(personalinfo)
+//  // ho to add the values 
+//  personalinfo["country"]="India"
+//  //personalinfo.country="India"
+//  console.log(personalinfo)
+
+// //  delete personalinfo.firstname
+// //  console.log(personalinfo)
+
+// //  delete personalinfo["age"]
+//  console.log(personalinfo)
 
 
+let str = "my name is siddhant "
+//output ==> 
+    // ym eman si tnahddis //
+    //tnahddis si eman ym //ok
+    //siddhant is name my
+//   let name1 = []
+//     for(let i = str.length; i>=0;i--){
+//       name1.push(str[i])
+//     }
+// console.log(name1.join(""))
 
+// let str2 = str.split(" ").reverse()
+// console.log(str2) 
 
+// let arrww = []
+// let str3 = str.split(" ")
+// str3.map((el,index,arr)=>{
+//   return arrww.unshift(el.split(" ").reverse())
+// })
+// console.log(arrww.join(" "))
+// let str = "my name is siddhant "
 
+// console.log(str.match(/[aeiou]/gi))
 
+// let viaahn=  {
+//   firstName: "Vihaan",
+//   lastName: "Mehta",
+//   age: 28,
+//   experience: 6,
+//   skills: ["TypeScript", "CI/CD"],
+//   position: "Automation Tester"
+// }
+// for ( let i=0;i<=viaahn.length;i++){
+//   console.log(i)
+// }
+
+// for(let key in viaahn){
+//   console.log(viaahn[key])
+// }
+
+// arra = ["Amol","Kantila","Jadhav",25,967004310]
+// for (let Amol of arra){
+//   console.log(Amol)
+// }
 
 
 

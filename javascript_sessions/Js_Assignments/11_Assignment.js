@@ -1,91 +1,190 @@
-// Exercise: Level 1
+/** 
+
+Exercises: Level 1
+
+1 Declare a function fullName and it print out your full name.
+
+2 Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
+
+3 Declare a function addNumbers and it takes two two parameters and it returns sum.
+
+4 An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates areaOfRectangle.
+
+5 A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function which calculates perimeterOfRectangle.
+
+6 A volume of a rectangular prism is calculated as follows: volume = length x width x height. Write a function which calculates volumeOfRectPrism.
+
+7 Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
+
+8 Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
+
+9 Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
+
+10 Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, speed.
+
+11 Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
+
+12 Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
+
+13 Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
+
+The same groups apply to both men and women.
+Underweight: BMI is less than 18.5
+Normal weight: BMI is 18.5 to 24.9
+Overweight: BMI is 25 to 29.9
+Obese: BMI is 30 or more
+
+14 Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
+
+15 Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
+
+console.log(findMax(0, 10, 5))
+10
+console.log(findMax(0, -10, -2))
+0
 
 
+Exercises: Level 2
 
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-  ];
-  
-  const webTechs = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Redux',
-    'Node',
-    'MongoDB'
-  ];
-  
-  
-  // Declare an empty array
-  // Declare an array with more than 5 number of elements
-  // Find the length of your array
-  // Get the first item, the middle item and the last item of the array
-  // Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
-  // Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
-  // Print the array using console.log()
-  // Print the number of companies in the array
-  // Print the first company, middle and last company
-  // Print out each company
-  // Change each company name to uppercase one by one and print them out
-  // Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon are big IT companies.
-  // Check if a certain company exists in the itCompanies array. If it exists return the company else return 'Company is not found'
-  // Filter out companies which have more than one 'o' without using the filter method
-  // Sort the array using sort() method
-  // Reverse the array using reverse() method
-  // Slice out the first 3 companies from the array
-  // Slice out the last 3 companies from the array
-  // Slice out the middle IT company or companies from the array
-  // Remove the first IT company from the array
-  // Remove the middle IT company or companies from the array
-  // Remove the last IT company from the array
-  // Remove all IT companies
-  
-  // Exercise: Level 2
-  
-  // First remove all the punctuations and change the string to an array and count the number of words in the array:
-  // let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
-  // console.log(words)
-  // console.log(words.length)
-  // ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
-  // 13
-  
-  // In the following shopping cart add, remove, edit items:
-  // const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
-  // add 'Meat' in the beginning of your shopping cart if it has not been already added
-  // add Sugar at the end of your shopping cart if it has not been already added
-  // remove 'Honey' if you are allergic to honey
-  // modify 'Tea' to 'Green Tea'
-  
-  // In countries array check if 'Ethiopia' exists in the array, if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
-  // In the webTechs array check if 'Sass' exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist, add Sass to the array and print the array.
-  
-  // Concatenate the following two variables and store it in a fullStack variable:
-  // const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-  // const backEnd = ['Node', 'Express', 'MongoDB']
-  // console.log(fullStack)
-  // ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
-  
-  // Exercise: Level 3
-  
-  // The following is an array of 10 students' ages:
-  // const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-  // Sort the array and find the min and max age
-  // Find the median age(one middle item or two middle items divided by two)
-  // Find the average age(all items divided by number of items)
-  // Find the range of the ages (max minus min)
-  // Compare the value of (min - average) and (max - average), use abs() method
-  
-  // Slice the first ten countries from the countries array
-  // Find the middle country(ies) in the countries array
-  // Divide the countries array into two equal arrays. If the countries array is not even, add one more country to the first half.
+1 Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.
+
+2 Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values of a quadratic equation, solveQuadEquation.
+
+console.log(solveQuadratic()) // {0}
+console.log(solveQuadratic(1, 4, 4)) // {-2}
+console.log(solveQuadratic(1, -1, -2)) // {2, -1}
+console.log(solveQuadratic(1, 7, 12)) // {-3, -4}
+console.log(solveQuadratic(1, 0, -4)) //{2, -2}
+console.log(solveQuadratic(1, -1, 0)) //{1, 0}
+
+3 Declare a function name printArray. It takes array as a parameter and it prints out each value of the array.
+
+4 Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
+
+showDateTime()
+08/01/2020 04:08
+
+5 Declare a function name swapValues. This function swaps value of x to y.
+
+swapValues(3, 4) // x => 4, y=>3
+swapValues(4, 5) // x = 5, y = 4
+
+6 Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (don't use method).
+
+console.log(reverseArray([1, 2, 3, 4, 5]))
+//[5, 4, 3, 2, 1]
+console.log(reverseArray(['A', 'B', 'C']))
+//['C', 'B', 'A']
+
+7 Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
+
+8 Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
+
+9 Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
+
+10 Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
+
+11 Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
+
+12 Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
+
+13 Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+
+evensAndOdds(100);
+The number of odds are 50.
+The number of evens are 51.
+
+14 Write a function which takes any number of arguments and return the sum of the arguments
+
+sum(1, 2, 3) // -> 6
+sum(1, 2, 3, 4) // -> 10
+
+15 Writ a function which generates a randomUserIp.
+
+16 Write a function which generates a randomMacAddress
+
+17 Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
+
+console.log(randomHexaNumberGenerator());
+'#ee33df'
+
+18 Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.
+
+console.log(userIdGenerator());
+41XTDbE
+
+Exercises: Level 3
+
+1 Modify the userIdGenerator function. Declare a function name userIdGeneratedByUser. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+
+userIdGeneratedByUser()
+'kcsy2
+SMFYb
+bWmeq
+ZXOYh
+2Rgxf
+'
+userIdGeneratedByUser()
+'1GCSgPLMaBAVQZ26
+YD7eFwNQKNs7qXaT
+ycArC5yrRupyG00S
+UbGxOFI7UXSWAyKN
+dIV0SSUTgAdKwStr
+'
+2 Write a function name rgbColorGenerator and it generates rgb colors.
+
+rgbColorGenerator()
+rgb(125,244,255)
+
+3 Write a function arrayOfHexaColors which return any number of hexadecimal colors in an array.
+
+4 Write a function arrayOfRgbColors which return any number of RGB colors in an array.
+
+5 Write a function convertHexaToRgb which converts hexa color to rgb and it returns an rgb color.
+
+6 Write a function convertRgbToHexa which converts rgb to hexa color and it returns an hexa color.
+
+7 Write a function generateColors which can generate any number of hexa or rgb colors.
+
+console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
+console.log(generateColors('hexa', 1)) // '#b334ef'
+console.log(generateColors('rgb', 3)) // ['rgb(5, 55, 175)', 'rgb(50, 105, 100)', 'rgb(15, 26, 80)']
+console.log(generateColors('rgb', 1)) // 'rgb(33,79, 176)'
+
+8 Call your function shuffleArray, it takes an array as a parameter and it returns a shuffled array
+
+9 Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
+
+10 Call your function isEmpty, it takes a parameter and it checks if it is empty or not
+
+11 Call your function sum, it takes any number of arguments and it returns the sum.
+
+12 Write a function called sumOfArrayItems, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
+
+13 Write a function called average, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
+
+14 Write a function called modifyArray takes array as parameter and modifies the fifth item of the array and return the array. If the array length is less than five it return 'item not found'.
+
+console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']);
+['Avocado', 'Tomato', 'Potato','Mango', 'LEMON', 'Carrot']
+console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon','Microsoft',  'IBM']);
+['Google', 'Facebook','Apple', 'Amazon','MICROSOFT',  'IBM']
+console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
+  'Not Found'
+
+15  Write a function called isPrime, which checks if a number is prime number.
+
+16 Write a functions which checks if all items are unique in the array.
+
+17 Write a function which checks if all the items of the array are the same data type.
+
+18 JavaScript variable name does not support special characters or symbols except $ or _. Write a function isValidVariable which check if a variable is valid or invalid variable.
+
+19 Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
+
+sevenRandomNumbers()
+[(1, 4, 5, 7, 9, 8, 0)]
+
+20 Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
+
+*/

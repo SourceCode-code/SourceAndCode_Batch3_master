@@ -289,3 +289,11 @@ function randomHexaNumberGenerator(){
 
 // 20 Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
 
+
+
+let str = "My name is Ashwini"
+name1 = []
+for(let i = str.length; i>=0; i--){
+ name1.push(str[i])
+}
+console.log(name1.join(""))

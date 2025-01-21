@@ -75,3 +75,17 @@ let number = 1234.56789;
     return el.includes("o")
  })
  console.log(findo)
+
+ let str25 = "SiddhantArjunGadakh"
+let newstr2 = str25.substring(0, 3)
+
+console.log(newstr2) //Sid
+
+let str29= "apple"
+
+console.log(str29.length) //5
+
+console.log(str29.repeat(10))
+
+let randomNumber=Math.ceil(Math.random()/5*(55-25)) + 25
+console.log(randomNumber)

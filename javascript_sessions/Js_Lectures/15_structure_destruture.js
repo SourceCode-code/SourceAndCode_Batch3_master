@@ -66,90 +66,178 @@ for (let [country, capital] of countryCapitalArray) {
 // USA: Washington DC
 // England: London
 
-
-
-// object destructing
-
+// ------------------------ Destructuring Objects ------------------------
 
 let obj = {
-    firstname: "siddhant",
-    lastname: "gadakh",
-    age: 25,
+    firstName: "Vihaan",
+    lastName: "Mehta",
+    age: 28,
     experience: 6,
-    skills: ["js", "cypress", "react", "playwright", "github"]
+    skills: ["TypeScript", "CI/CD"],
+    position: "Automation Tester"
+};
+
+// Destructuring object properties into variables
+let { firstName, lastName, age, experience, skills, position } = obj;
+console.log(firstName, lastName, age, experience, skills, position);
+
+// Renaming Variables during Destructuring
+let { firstName: fn, lastName: ln, age: ag, experience: ex, skills: sk, position: pos } = obj;
+console.log(fn, ln, ag, ex, sk, pos);
+
+// Destructuring specific items from an array inside an object
+let [skill1, skill2] = sk;
+console.log(skill1, skill2); // Output: TypeScript CI/CD
+
+// ------------------------ Notations in Objects ------------------------
+
+// When to use Dot Notation and Bracket Notation
+// - Dot Notation: Use when accessing object properties directly by their name. It is clear and easy to read.
+console.log(obj.firstName);  // Output: Vihaan
+
+// - Bracket Notation: Use when accessing per operties dynamically or when the property name includes special characters.
+// Example: Accessing properties with a variable
+let property = "lastName";
+console.log(obj[property]);  // Output: Mehta
+
+// ------------------------ Looping with 'in' and 'of' ------------------------
+
+// 'for...in' is used to iterate over the keys of an object.
+for (let key in obj) {
+    console.log(`${key}: ${obj[key]}`);
 }
 
-//
-console.log(obj.firstname)
-
-
-// --
-
-// let firstname ="siddhant",
-//    let  lastname="gadakh",
-//     age:25,
-//     experience:6,
-
-// let {firstname ,lastname,age,experience,skills}=obj
-// console.log(firstname)
-// console.log(skills)
-
-// rename
-
-let { firstname: fn, lastname: ln, age: ag, experience: ex, skills: [js, cypress, react, playwright, github] } = obj
-console.log(ln)
-
-
-console.log(react)
+// 'for...of' is used to iterate over the values in an array.
+let numbersArray = [10, 20, 30];
+for (let value of numbersArray) {
+    console.log(value);
+}
 
 
 
-let obj1 = [{
-    firstname: "siddhant",
-    lastname: "gadakh",
-    age: 25,
-    experience: 6,
-    skills: ["js", "cypress", "react", "playwright", "github"]
+//----------------------------
+// examples on destructing 
+// spread 
+
+const rect = {
+    height: 20,
+    width: 10
+}
+
+let perimeter = 2 * (rect.height + rect.width)
+
+console.log(perimeter)
+
+// creating functions without using destruture 
+function calculateperimeter(rectangle) {
+    return 2 * (rectangle.height + rectangle.width)
+}
+
+console.log((calculateperimeter(rect)))
+
+//---------------------------------------------
+
+// creating function using destructure 
+
+function peri({ height, width }) {
+    return 2 * (height + width)
+}
+
+console.log(peri(rect))
+
+
+//------------------loops in destructing a object 
+
+const EXP = [{
+    name: 'Afghanistan',
+    capital: 'Kabul',
+    languages: ['Pashto', 'Uzbek', 'Turkmen'],
+    population: 27657145,
+    flag: 'https://restcountries.eu/data/afg.svg',
+    currency: 'Afghan afghani'
 }, {
-    firstname: "amol",
-    lastname: "jadhav",
-    age: 25,
-    experience: 6,
-    skills: ["js", "cypress", "react", "playwright", "github"]
-}
-]
-
-for(const{firstname,lastname,age,experience,skills} of obj1){
-    console.log(firstname,lastname)
-}
+    name: 'Afghanistan',
+    capital: 'Kabul',
+    languages: ['Pashto', 'Uzbek', 'Turkmen'],
+    population: 27657145,
+    flag: 'https://restcountries.eu/data/afg.svg',
+    currency: 'Afghan afghani'
+}]
 
 
+// console.log(name, capital, languages, population, flag, currency)
 
-// spread operator (...)
-
-let arr3=[1,2,3,4,5]
-console.log(...arr3)
-
-
-// copy arr
-
-let number =[...arr3]
-console.log(number)
-
-
-
-// get the sum of this numbers 
-let arr5 =[1,2,3,4,5,6,7,8,9]
-
-function sumofnum(...num){
-    let sum =0
-    for(const num of arr5){
-        sum +=num
-    }
-
-    console.log(sum)
+for (const { name, capital, languages, population, flag, currency } of EXP) {
+    console.log(name, capital, languages, population, flag, currency)
 }
 
 
+//---------------------------------------------------------------------------------------
 
-sumofnum(...arr5)
+//Spread operator
+// how is spread operator denoted (...name)
+
+let arr2= [1,2,3,47,5,6,7,8,9]
+
+console.log(...arr2)  //1 2 3 47 5 6 7 8 9
+ 
+let [NUM1,NUM2,...rest]=arr2
+
+console.log(NUM1,NUM2,rest)
+
+// spread opertor is used to copy array
+
+const even =[2,4,6,8,10,12,14,16,18,20]
+
+let EVENNUMBERS=[...even]
+
+console.log(EVENNUMBERS)
+
+let odd=[1,3,5,7,9,11,13,15,17,19,21]
+
+let ODD=[...odd]
+
+console.log(ODD)
+
+let wholenumbers=[...EVENNUMBERS,...ODD]
+
+console.log(wholenumbers)
+
+//-------------------------------------------------------------------
+
+//spread opertor is used to modify or add new value in object
+
+// let afg={
+//     name: 'Afghanistan',
+//     capital: 'Kabul',
+//     languages: ['Pashto', 'Uzbek', 'Turkmen'],
+//     population: 27657145,
+//     flag: 'https://restcountries.eu/data/afg.svg',
+//     currency: 'Afghan afghani'
+// }
+
+// const AFG={...afg,currency:"dollars"}
+
+// console.log(AFG)
+//--------------------------------------------------------------------------
+//spread opertor can be used as multiple parameter in a function
+
+function sumofnum(...args){
+    console.log(args)
+ }
+
+ sumofnum(1,2,3,4,5,6,78,8,9,524)
+//--------------------------------------------------------------
+
+ function sumofnum(...args){
+  let sum =0
+  for(const num of args){
+    sum+=num
+  }
+  return sum
+ }
+
+console.log( sumofnum(1,2,3,4,5,6,78,8,9,524))
+console.log(sumofnum(1,2))
+console.log(sumofnum(1,2,3,4,5,6,7,8,9,10))
+

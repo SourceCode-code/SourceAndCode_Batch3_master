@@ -65,3 +65,91 @@ for (let [country, capital] of countryCapitalArray) {
 // India: Delhi
 // USA: Washington DC
 // England: London
+
+
+
+// object destructing
+
+
+let obj = {
+    firstname: "siddhant",
+    lastname: "gadakh",
+    age: 25,
+    experience: 6,
+    skills: ["js", "cypress", "react", "playwright", "github"]
+}
+
+//
+console.log(obj.firstname)
+
+
+// --
+
+// let firstname ="siddhant",
+//    let  lastname="gadakh",
+//     age:25,
+//     experience:6,
+
+// let {firstname ,lastname,age,experience,skills}=obj
+// console.log(firstname)
+// console.log(skills)
+
+// rename
+
+let { firstname: fn, lastname: ln, age: ag, experience: ex, skills: [js, cypress, react, playwright, github] } = obj
+console.log(ln)
+
+
+console.log(react)
+
+
+
+let obj1 = [{
+    firstname: "siddhant",
+    lastname: "gadakh",
+    age: 25,
+    experience: 6,
+    skills: ["js", "cypress", "react", "playwright", "github"]
+}, {
+    firstname: "amol",
+    lastname: "jadhav",
+    age: 25,
+    experience: 6,
+    skills: ["js", "cypress", "react", "playwright", "github"]
+}
+]
+
+for(const{firstname,lastname,age,experience,skills} of obj1){
+    console.log(firstname,lastname)
+}
+
+
+
+// spread operator (...)
+
+let arr3=[1,2,3,4,5]
+console.log(...arr3)
+
+
+// copy arr
+
+let number =[...arr3]
+console.log(number)
+
+
+
+// get the sum of this numbers 
+let arr5 =[1,2,3,4,5,6,7,8,9]
+
+function sumofnum(...num){
+    let sum =0
+    for(const num of arr5){
+        sum +=num
+    }
+
+    console.log(sum)
+}
+
+
+
+sumofnum(...arr5)

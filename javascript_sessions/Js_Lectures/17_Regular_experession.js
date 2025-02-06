@@ -75,4 +75,52 @@ let str4 = "h@#el@#l@#o m@#y@# n@#a@#m@#e i@#s@# s@#i@#d@#d@#h@#a@#n@#t"
 console.log(str4.replace(/@#/gi,""))
 
 
+//[]: a set of characters 
+
+/**
+ * [a-c] --> any letter between a,b,c
+ * [a-z] --> any letter form a.....z
+ * [A-Z] --> any letter form A ... Z
+ * [0-9]---> any number form 0....9
+ * [A-Za-z0-9] ---> any letter form A...Z, anyletter form a...z,any number form 0..9
+ *[Aa]--> A or a
+ * 
+ * 
+ * // escape 
+ * 
+ * \ --> escape line 
+ * \n --> new line 
+ * \t --> tab key 
+ * \' --> single qutoe
+ * \" --> double quote 
+ * \d ---> digits 
+ * \D --> confrims string doesnt conatin any number 
+ * 
+ * ^:startswith (not)
+ * $: endwith
+ * * --> occarance 
+ * + --> more mulitple 
+ * ?---> zero or one time 
+ * 
+ */
+
+
+// get the word apple count in the string
+let str5 = " apple and bananana are furits and old chicle says an Apple a day keeps doctor away "
+
+// console.log(str5.match(/apple/gi))
+
+console.log(str5.match(/[Aa]pple/g))
+
+//calculate the digits form the string
+let str6 = " this is a regular expression session conducted on 6 of jan 2025 at 9:46 pm"
+
+console.log(str6.match(/\d+/g))
+
+
+let str7 = "hello my name is siddhant"
+
+// get me the vowels in this string using regex
+
+console.log(str7.match(/[AEIOU]/gi))
 

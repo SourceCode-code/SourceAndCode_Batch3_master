@@ -76,17 +76,17 @@ class personal_Details {
         return fullname
     }
 
-    get GET_role(){
+    get GET_role() {
         return this.role
-    }
+    } // role --> current 
 
-    set Changerole(updaterole){
-        this.role=role
-    }
+    set Changerole(updaterole) {
+        this.role = role
+    } // upadate update role -->
 
-    get update_role(){
+    get update_role() {
         return this.updaterole
-    }
+    } // upadate role 
 
 }
 
@@ -105,10 +105,10 @@ console.log(user1.updaterole)// test-user
 
 //------------------------------------------------
 
-//setter and getter method 
+//setter and getter method
 
-// set keyword 
-//get keyword 
+// set keyword
+//get keyword
 
 
 // let arr = [1, 2, 3]
@@ -116,3 +116,15 @@ console.log(user1.updaterole)// test-user
 // arr.push(4)
 
 // console.log(arr)
+
+
+/**
+ * 
+ * 
+ * {
+ * name:"fghj",
+ * lastbame:"fghj",
+ * role:admin
+ * upadterole:testuser
+ * }
+ */

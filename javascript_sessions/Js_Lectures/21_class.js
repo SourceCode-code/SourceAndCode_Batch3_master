@@ -162,3 +162,24 @@ let sid1 = new info("sid", "gadakh")
 console.log(sid1.fullname)
 
 console.log(info.showdate())
+
+//-----------------------------------------------------------------
+
+//sync and async -->
+
+console.log("fghjkl")
+console.log("jhgfdcfvgh")
+console.log("fghjkl")
+console.log("jhgfdcfvgh")
+
+
+// js --> synchorous -->
+
+
+// async ---> ( playwright , cypress )---> async 
+
+
+//async --> sync (promises /// async await // callback hell)
+
+//promises --- cypress
+// // async await  -- playwright 

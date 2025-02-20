@@ -3,29 +3,73 @@
 // Exercises: Level 1
 
 // 1 Declare a function fullName and it print out your full name.
- let function fullName()
- console.log("sneha,suresh,anap")
-
+  function fullName(){
+ console.log("sneha suresh anap")
+  }
+  fullName()
 // 2 Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
-
+function fullname(firstname,lastname){
+    return(firstname,lastname)
+    
+}
+let snehainfo=("sneha anap")
+console.log(snehainfo)
+let s=("devansh bulkude")
+console.log(s)
 // 3 Declare a function addNumbers and it takes two two parameters and it returns sum.
+function addNumbers (a,b){
+console.log(`${a+b}`)
+}
+addNumbers(5,8)
 
 // 4 An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates areaOfRectangle.
+function areaOfRectangle(l,w){
+    console.log(`${l*w}`)
+
+}
+areaOfRectangle(5,5)
+
 
 // 5 A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function which calculates perimeterOfRectangle.
+      function parimeter(l,w){
+       //console.log (`parimeter:${2*(l+w)}`)
+       console.log(2*(l+w))
+      }
+      parimeter(1,2)
 
+      
 // 6 A volume of a rectangular prism is calculated as follows: volume = length x width x height. Write a function which calculates volumeOfRectPrism.
-
+  function prism(l,w,h){
+    console.log(l*w*h)
+  }
+  prism(1,2,3)
 // 7 Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
 
+function circleArea(r){
+   console.log(`Area of circle = ${Math.PI*r**2}`)
+   }
+   circleArea(3)
+  
+
 // 8 Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
+function circumference(r){
+  console.log(`circumference=${2*Math.PI*r}`)
+}
+circumference(13)
 
 // 9 Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
+function density(m,v){
+  console.log(`density=${m/v}`)
+}
+density(12,3)
 
 // 10 Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object, speed.
 
 // 11 Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
-
+function weight(m,g){
+  console.log(`weighty=${m*g}`)
+}
+density(12,3)
 // 12 Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
 
 // 13 Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
@@ -37,9 +81,38 @@
 // Obese: BMI is 30 or more
 
 // 14 Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
+function checkseason(month){
+  return(`${month.toLowerCase()}`)
+}
+let check=(checkseason("january"))
+let automn="september,october,november"
+let winter="december,january,february"
+let spring="march,april,may"
+let summer="june,july,august"
+if(automn.includes(check)){
+  console.log(`${check}its automn`)
+}
+else if(winter.includes(check)){
+  console.log(`${check} its winter`)
+}
+else if(spring.includes(check)){
+  console.log(`${check} its spring`)
+}
+else if(summer.includes(check)){
+  console.log(`${check} its spring`)
+}
+else{
+  console.log('enter valid month')
+}
+
 
 // 15 Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum with out using Math.max method.
-
+function largestnumber(Check){
+ array1=Math.max(...Check)
+ console.log(array1)
+}
+largestnumber([0,4,5,14])
+largestnumber([-1,6,9,0,67])
 // console.log(findMax(0, 10, 5))
 // 10
 // console.log(findMax(0, -10, -2))
@@ -181,11 +254,31 @@
 // 17 Write a function which checks if all the items of the array are the same data type.
 
 // 18 JavaScript variable name does not support special characters or symbols except $ or _. Write a function isValidVariable which check if a variable is valid or invalid variable.
-
+function isValidvariable(array){
+  //     str1 = array.join(" ")
+  //     if (str1.includes("$")||str1.includes("_"))
+  //       {  console.log('Variable is valid')
+  //     }
+  //     else{
+  //        console.log('Variable is invalid')
+  //     }
+  // }
+  // isValidvariable(["$sneha_1234"])
+  
 // 19 Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
-
+// function randomArray(){
+// let Ran = ""
+// for(i=0;i<=10;i++){
+// let Check = Math.floor(Math.random()*10)
+// if(!Ran.includes(Check))
+//     Ran+=Check
+// }
+// console.log(Ran.split("").splice(1,9))
+// }
+// randomArray()
 // sevenRandomNumbers()
 // [(1, 4, 5, 7, 9, 8, 0)]
+
 
 // 20 Write a function called reverseCountries, it takes countries array and first it copy the array and returns the reverse of the original array
 

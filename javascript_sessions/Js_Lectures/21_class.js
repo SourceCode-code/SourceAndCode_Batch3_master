@@ -128,3 +128,37 @@ console.log(user1.updaterole)// test-user
  * upadterole:testuser
  * }
  */
+
+
+//---------------------------------------------------------------
+
+// method created in class using default way and by get and set are applicable on instance 
+
+//static --> this keyword is used to create a method which is applicable on class itself 
+
+class info {
+    constructor(name, surname) {
+        this.name = name
+        this.surname = surname
+    }
+
+    get fullname() {
+        const fullname = `${this.name} ${this.surname}`
+        return fullname
+    }
+
+   static  showdate() {
+        let date = new Date()
+        let currentdate = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
+        return currentdate
+    }
+
+}
+
+
+let sid1 = new info("sid", "gadakh")
+
+
+console.log(sid1.fullname)
+
+console.log(info.showdate())

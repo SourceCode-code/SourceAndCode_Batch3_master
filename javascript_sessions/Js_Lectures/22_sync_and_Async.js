@@ -145,3 +145,17 @@ user_regsitor("siddhant", () => {
 
 // promises
 // async and await 
+
+// zomato and swiggy 
+
+/**
+ * lauch the app 
+ * select restraut 
+ * select food and qaunity 
+ * go to cart 
+ * enter adderss and details 
+ * pay 
+ * wait for delievery 
+ * get food 
+ * review 
+ */

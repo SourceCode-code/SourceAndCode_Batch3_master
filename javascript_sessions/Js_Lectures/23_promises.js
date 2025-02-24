@@ -56,3 +56,36 @@ skills.then((message)=>{
 
 
 //--------------------------------------------------------------------
+
+
+
+/**
+ * 
+ * 
+ * let x = "hello"
+ * 
+ * let y = x
+ * 
+ * 
+ * 
+ * y+=" world"
+ * 
+ * console.log(x)
+ * 
+ * 
+ * 
+ */
+
+//hello world --> sonali 
+//hello 
+
+//  let x = "hello"
+//  let y = x
+//  y+=" world"
+//  console.log(x)
+ 
+
+//  // y = X+y
+
+//  console.log(y)
+

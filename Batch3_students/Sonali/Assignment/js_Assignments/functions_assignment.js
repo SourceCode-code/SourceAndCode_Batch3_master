@@ -130,3 +130,31 @@ console.log(add1)
 
 
 
+
+
+
+
+
+//function is used to make code reusable
+//function without parameter without return type
+function names(){
+    console.log("Sonali")
+}
+names()
+
+function addition(a,b){
+    console.log(a+b)
+}
+addition(2,5)
+
+function cube(num){
+    return num*num*num
+}
+
+let ab=cube(2)
+console.log(ab)
+
+
+
+
+

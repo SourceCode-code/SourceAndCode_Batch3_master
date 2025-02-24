@@ -813,3 +813,85 @@ else{
 
 let randomno=(Math.floor(Math.random()*10)+10)
 console.log(randomno)
+
+
+
+let str30 = "my name is siddhant "
+//output ==> 
+    // ym eman si tnahddis
+    //tnahddis si eman ym
+    //siddhant is name my
+    console.log(str30.split().reverse())
+
+    //array=non primitive datayptye they are not predefined and they are mutale we can change it.
+    let arr=[]
+    let c=Array()
+
+    let arr1=["sonali","khosle","rajabhau","26","pune"]
+    console.log(arr1.length)
+    //retrieve
+    let retrieve=arr1[2]
+    console.log(retrieve)
+    console.log(arr1[3])
+
+    //update
+    arr1[0]="sonu"
+    console.log(arr1)
+    arr1[3]="28"
+    console.log(arr1)
+    
+    //add
+    delete arr1[4]
+    console.log(arr1)
+    delete arr1[2]
+    console.log(arr1)
+
+    //push is used to add array in last 
+    //unshift is used add array in first
+    arr1.push("sonukhosle@gmail.com")
+    console.log(arr1)
+
+    arr1.push("parli")
+    console.log(arr1)
+
+    arr1.unshift("hii")
+    console.log(arr1)
+
+    arr1.unshift("hello")
+    console.log(arr1)
+
+    //pop is used to remove  last element 
+    //shift is used to remve first element
+    arr1.pop()
+    console.log(arr1)
+    arr1.pop()
+    console.log(arr1)
+
+    arr1.shift()
+    console.log(arr1)
+
+    arr1.shift()
+    console.log(arr1)
+
+    arr1.splice(2,2)
+    console.log(arr1)
+
+    let arr4 = ["apple", "chickoo", "pineapple", "custrad", "banana"]
+arr4.sort()
+console.log(arr4)
+
+let arr41= ["2", "5", "8", "7", "1", "2", "6", "7", "6", "19", "666"]
+console.log(arr41.sort())
+
+let arr5 = ["2", "5", "8", "7", "1", "2", "6", "7", "6", "19", "666"]
+
+console.log(arr5.sort())
+
+let arr7 = [1, 2, 33, 44, 55, 66, 431, 34567, 76543, 23, 12, 450, 0]
+console.log(Math.min(...arr7))
+console.log(Math.max(...arr7))
+let arr10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 19]
+console.log(Math.max(...arr10))
+console.log(Math.min(...arr10))
+
+let arr11 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 19]

@@ -68,9 +68,9 @@ let cur_date=date.toLocaleString("en-gb",{weekday:"long",day:"2-digit",month:"lo
 //Question 3: 
 //Calculate how many days are left until a specific date (input: 'YYYY-MM-DD').
 //31 -dec
-//let year_1=new Date(13-12-2024)
-//let year_2= new Date(31-12-2014)
-//console.log(year_2-year_1)
+let year_1=new Date(13-12-2024)
+let year_2= new Date(31-12-2014)
+console.log (Math.abs(year_2-year_1))
 
 
 
@@ -85,7 +85,7 @@ if(cur_years%4==0&&cur_years%100==0&&cur_years%400!=0){
     console.log(`year is leap`)
 }
 else{
-    confirm.log("not")
+    console.log("not")
 }
 
 let date3 = new Date()

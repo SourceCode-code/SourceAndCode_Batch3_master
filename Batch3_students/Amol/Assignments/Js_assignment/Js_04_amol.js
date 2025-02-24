@@ -120,7 +120,7 @@ console.log(str14.replace('test','Exam'))
 // console.log(challeng.lastIndexOf('t'))
 
 // // 17. Use indexOf to find the position of the first occurrence of the word because in the following sentence:
-// let str = "i was late becausE of some reason"
+//let str = "i was late becausE of some reason"
 // console.log(str.indexOf('becausE'))
 
 // // 18. Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence.

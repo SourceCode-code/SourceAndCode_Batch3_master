@@ -42,50 +42,111 @@ let skills = new Promise((reslove, reject) => {
         if (arr.length > 1) {
             reslove(arr)
         }
-        else{
+        else {
             reject("person doesnt meet critery")
         }
     }, 3000)
 })
 
-skills.then((message)=>{
+skills.then((message) => {
     console.log(message)
-}).catch((error)=>{
+}).catch((error) => {
     console.log(error)
 })
 
 
 //--------------------------------------------------------------------
 
+// //1 user regsister
+// //2 otp verification
+// //3 perfrence --
+// //4 start acitivity
 
 
+function userregistor(user) {
+    return new Promise((reslove, reject) => {
+        setTimeout(() => {
+            console.log(`the ${user} has been successfully registor `)
+            reslove(user)
+        }, 5000)
+    })
+}
+
+function sendotp(user) {
+    return new Promise((reslove, reject) => {
+        setTimeout(() => {
+            console.log(`the ${user} the otp has been verified `)
+            reslove(user)
+        }, 3000)
+    })
+}
+
+function set_perfeences(user) {
+    return new Promise((reslove, reject) => {
+        setTimeout(() => {
+            console.log(`the ${user}  perefeneces has been set`)
+            reslove(user)
+        }, 2000)
+    })
+}
+
+function start_use(user) {
+    return new Promise((reslove, reject) => {
+        setTimeout(() => {
+            console.log(`the ${user} can start aticvity`)
+            reslove(user)
+        }, 500)
+    })
+}
+
+// userregistor("sid")
+// sendotp("sid")
+// set_perfeences("sid")
+// start_use("sid")
+//callback hell 
 /**
- * 
- * 
- * let x = "hello"
- * 
- * let y = x
- * 
- * 
- * 
- * y+=" world"
- * 
- * console.log(x)
- * 
- * 
- * 
+ * user_regsitor("siddhant", () => {
+    verify_otp("siddhant", () => {
+        set_perfeences("siddhant", () => {
+            start_use("siddhant", () => {
+                console.log("log out ")
+            })
+        })
+    })
+})
  */
 
-//hello world --> sonali 
-//hello 
+userregistor("SID")
+    .then(sendotp)
+    .then(set_perfeences)
+    .then(start_use)
 
-//  let x = "hello"
-//  let y = x
-//  y+=" world"
-//  console.log(x)
- 
 
-//  // y = X+y
 
-//  console.log(y)
+
+setTimeout(() => {
+    console.log(`pasue`)
+
+}, 5000)
+userregistor("pritam").then(sendotp).then(set_perfeences).then(start_use).then((message) => {
+    console.log(message)
+})
+
+
+
+//**
+// open amazon  --(5000)
+// search iphone --(9000)
+// click on required specification --(7000)
+// add to cart --(2000)
+// add details --(12000)
+// buy now and pay  --(15000)
+// deliver --(30000)
+// send review (5000)
+// order success fully  --(3000)
+//  */
+
+
+
+// async and await ---> playwright 
 

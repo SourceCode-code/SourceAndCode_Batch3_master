@@ -118,23 +118,6 @@ let add1=addition5(25)
 console.log(add1)
 
 
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
 //function is used to make code reusable
 //function without parameter without return type
 function names(){

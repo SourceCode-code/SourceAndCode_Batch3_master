@@ -78,7 +78,14 @@ class cat extends Animal{
 
 const pers = new cat("tom","persion",5)
 
-console.log(pers)
+
 
 pers.meow()
 pers.Eat()
+
+// * Inheritance in javascript is one class allows other class to inheirt its properties and method called as Inheritance
+
+//overriding  --> when child class updates the inhertated method is called overriding 
+//overloading --> when you define multiple function with same name but different parameter it is called overloading 
+
+

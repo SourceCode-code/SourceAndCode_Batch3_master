@@ -105,3 +105,9 @@ console.log(tommyDetails)
 // abstraction  -->
 //encapsulation -->
 //polymrophsim -->
+function toCelsius(fahrenheit) {
+    return (5/9) * (fahrenheit-32);
+  }
+  
+  let value = toCelsius(90);
+  console.log(value)

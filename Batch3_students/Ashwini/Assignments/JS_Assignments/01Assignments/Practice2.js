@@ -111,3 +111,6 @@ function toCelsius(fahrenheit) {
   
   let value = toCelsius(90);
   console.log(value)
+
+  const d = new Date(24, 10, 18);
+  console.log(d)

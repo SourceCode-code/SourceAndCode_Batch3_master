@@ -43,5 +43,17 @@ console.log(sid.canvote())
 
 //inhertance    -->child class inherts parents properties and method 
 //abstarction   -->we hide unnessary detials and showing required funcationly (to make user experice easy)
-//encapsulation --> restrict accesss to class property and method to proctect the inner state of the class 
+//encapsulation -->restrict accesss to class property and method to proctect the inner state of the class 
 //polymorphism  -->
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+selectors --> a precise loaction or identity of an element is called as selector 
+thumb rule -->if you want to create  any elemnets selector it should always be unique
+
+
+//there are two types selector 
+
+// xpath            --10
+//css- selectors    --90
+
+
+//css - selectors 
+
+break down of html node 
+ * 
+ * (staring tag)    attribute=value              attribute=value           attribute=value     text          ending tag
+ *< textarea        name="message"               class="feedback-input" placeholder="Comments"> hello  </textarea>
+ */
+
+
+ //tagname -->
+ just write the tagname 
+
+ //class -->
+ take value of calss and add a dot(.) athe begining example  (".col-md-12")
+ in dot method if there is any space between class value 
+ (remove space and dot before starting of each value)
+
+ for find with dot 
+
+ 1 paste value 
+ 2 add dot at the starting
+ 3 if space present replace the spaces with .
+
+ //second way -->
+ simple take both attribute and value and put it in array [class="col-md-12"]
+
+
+// id --> 
+
+1 way use # 
+
+steps 
+
+ 1 copy the value  
+ 2 add # before the value 
+
+ example --> #contact_form
+
+2 way 
+
+1 copy both attribute and value 
+2 paste that in an array 
+
+example --> [id="contact_form"]
+
+
+// to get any element by attribute and value 
+
+// steps 
+
+1 copy the attribute and value 
+2 paste it in a array  
+
+example --> [placeholder="First Name"]
+
+
+// general formula to create selector 
+
+tagname[atrribute="value]
+ 
+ //--- example  --> input[placeholder="First Name"]
+
+
+
+https://webdriveruniversity.com/Contact-Us/contactus.html

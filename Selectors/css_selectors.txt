@@ -73,3 +73,43 @@ tagname[atrribute="value]
 
 https://webdriveruniversity.com/Contact-Us/contactus.html
 
+
+//------------------ Advance selectors-----------------
+
+//--------------------------------------------------
+
+// traveling --> in dom we always travel form parent to child 
+
+//1 way  --> adding space between selectors 
+example 
+ parent                          space child 
+[href="Contact-Us/contactus.html"] [class="section-title"]
+
+
+//2 way  use > 
+parent      arrow child > child 
+#contact-us > div > div.section-title
+
+
+
+// ----------------------------------------------------------------------------------
+
+//partical selector 
+
+starts with -->
+// use ^ before = sign 
+[href^="Contact-Us"]
+
+// ends with -->
+use  $ before = sign 
+
+[href$="contactus.html"]
+
+
+// sibling 
+
+using nth:child(number)
+
+
+[class="pagination traversal-pagination"] li:nth-Child(4)
+

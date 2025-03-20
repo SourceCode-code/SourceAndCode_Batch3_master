@@ -32,3 +32,7 @@ test("verify the basic of creating a testcases in playwright", async ({ browser 
  * 
  * 
  */
+
+// https://webdriveruniversity.com/Contact-Us/contactus.html
+
+// create 2 mannual testcases each 

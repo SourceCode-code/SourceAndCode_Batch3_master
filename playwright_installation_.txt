@@ -1,0 +1,8 @@
+// commands to install playwright 
+
+// create folder to install
+// open terminal in that folder 
+// hit commands --> npm init playwright@latest
+// type y and press enter 
+// select js 
+// hit enter 

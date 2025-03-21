@@ -1,0 +1,27 @@
+// commands to install playwright 
+
+// create folder to install
+// open terminal in that folder 
+// hit commands --> npm init playwright@latest
+// type y and press enter 
+// select js 
+// hit enter 
+
+
+// playwright folder structure 
+
+// node modules --> require npm modules for playwright 
+// tests        --> this folder is used to store all your testcases
+//.gitingore    --> used add files to ignore in github 
+//package-lock.json-->store the meta data 
+//package.json     -->store the dependecy 
+//playwright.config.js -->this is a file which is used to change the seeting of playwright
+
+
+
+//test sutie --> combinenation of testcases
+
+// testcases -->single file to test a feature
+
+// when you have to create a testcase  
+// testname.spec.js

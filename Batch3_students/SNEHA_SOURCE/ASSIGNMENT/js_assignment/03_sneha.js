@@ -71,7 +71,7 @@ console.log(str)
 // // 14. Write a program to pick a random element from string "qwertyuiopasdfghjklzxcvbnm" and log the selected element.
 let string="qwertyuiopasdfghjklzxcvbnm" 
 let random=Math.round(Math.random()*string.length)
-console.log(string[random])
+console.log(string[random])                                         //(explain this quetion please how to get random element)
 // //15 write a program to generate a random odd number form 15-150
 let odd=Math.floor(Math.random()*((150-15)/2+1))*2+15
  console.log(odd)

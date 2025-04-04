@@ -12,7 +12,7 @@ https://webdriveruniversity.com/Contact-Us/contactus.html
 "input-lg text user_email_ajax" //only value
  "[placeholder='Business Email']"  //array
 
- input[placeholder='Business Email'] // adding with tagname
+ input '[placeholder='Business Email'] // adding with tagname
 
  "new-auth-form new-auth-form--default  " // with value 
 

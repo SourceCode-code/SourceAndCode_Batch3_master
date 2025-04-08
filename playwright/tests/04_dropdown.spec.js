@@ -26,10 +26,9 @@ for(let i=0;i<listnames;i++){
 // verify 
 await page.waitForTimeout(3000)
 
-// await page.locator('[class="block large-row-spacer"] #autocomplete')
-
+                              //india                                          ---> india
 await expect(page.locator('[class="block large-row-spacer"] #autocomplete')).toHaveValue("India")
-
+//asseration
 
 
 

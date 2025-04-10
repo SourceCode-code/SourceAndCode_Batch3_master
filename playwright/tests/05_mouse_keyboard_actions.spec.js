@@ -61,20 +61,15 @@ test('verify double click ', async ({ page }) => {
 
 
 test("verify keyboard actions ", async ({ page }) => {
-
-
     //visit the websote 
     await page.goto("https://webdriveruniversity.com/Contact-Us/contactus.html")
-
     await page.locator('[name="first_name"]').fill("siddhant")
     // select and copy the name a
     //select all crtl + a
     await page.keyboard.press("Control+A")
     //select all crtl + c
     await page.keyboard.press("Control+C")
-
     await page.keyboard.press("Tab")
-
     //paste 
     await page.keyboard.press("Control+V")
 })

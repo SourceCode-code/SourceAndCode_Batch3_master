@@ -43,3 +43,19 @@ test("Javascript loader alert", async({page})=>{
         await javascriptalert.accept()
         console.log(javascriptalert.message())
     })
+})
+
+test("Ajax load alert", async({page})=>{
+    await page.goto("https://webdriveruniversity.com/Popup-Alerts/index.html")
+    await page.locator('[id="button3"]').click()
+
+    page.on("dialog", async(ajaxloadalert)=>{
+        await ajaxloadalert.message()
+        let text2= await ajaxloadalert.locator('[class="btn btn-default btn-lg dropdown-toggle"]').click()
+        
+        await expect(text2).toContain("Well Done For Waiting....!!!")
+
+        console.log(ajaxloadalert.message())
+    })
+   
+})

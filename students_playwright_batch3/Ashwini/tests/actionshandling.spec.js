@@ -1,6 +1,7 @@
 const { test, expect } = require("@playwright/test")
 
 test("Verify handling mouse actions - Dynamic click", async ({browser})=>{
+    
     const context = await browser.newContext()
     const page = await context.newPage()
     await page.goto("https://demoqa.com/buttons")
@@ -18,6 +19,7 @@ test("Verify handling mouse actions - Dynamic click", async ({browser})=>{
 })
 
 test ("Verify keyboard action", async ({page})=>{
+
     await page.goto("https://webdriveruniversity.com/Contact-Us/contactus.html")
     await page.locator('[name="first_name"]').fill("Ashu")
     await page.keyboard.press("Control+A")

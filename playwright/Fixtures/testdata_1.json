@@ -1,0 +1,8 @@
+{
+    "testId": "test_1",
+    "testName": "verify the basic of creating a dynamic data for  testcases in playwright",
+    "firstName": "amol",
+    "lastName": "jadhav",
+    "email":"demo123@gmail.com",
+    "message":"This is a  dynamic data test message"
+}

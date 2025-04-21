@@ -35,3 +35,5 @@ test("verify the basic of creating a dynamic data2 for  testcases in playwright"
     await page.locator('[name="email"]').fill(data.email)
     await page.locator('[name="message"]').fill(data.message)
 })
+
+

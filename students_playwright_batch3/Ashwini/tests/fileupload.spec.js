@@ -1,4 +1,4 @@
-const {test, expect} = require {"@playwright/test"}
+const {test, expect} = require ("@playwright/test")
 
 test("file upload", async({page})=>{
     await page.goto("https://webdriveruniversity.com/File-Upload/index.html?filename=")

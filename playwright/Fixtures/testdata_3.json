@@ -1,0 +1,184 @@
+{
+    "testdata": [
+        {
+            "index": 1,
+            "testId": "test_2",
+            "testName": "verify the basics of creating dynamic data for test cases in playwright",
+            "firstName": "Vaibhav",
+            "lastName": "Suryawanshi",
+            "email": "demo123@gmail.com",
+            "message": "This is a dynamic data test message"
+        },
+        {
+            "index": 2,
+            "testId": "test_3",
+            "testName": "check dynamic user creation flow",
+            "firstName": "Amit",
+            "lastName": "Patil",
+            "email": "amit.patil@gmail.com",
+            "message": "Testing dynamic generation for new user"
+        },
+        {
+            "index": 3,
+            "testId": "test_4",
+            "testName": "test unique data inputs",
+            "firstName": "Sneha",
+            "lastName": "Deshmukh",
+            "email": "sneha.d@gmail.com",
+            "message": "Verifying uniqueness of test input"
+        },
+        {
+            "index": 4,
+            "testId": "test_5",
+            "testName": "generate random data for form",
+            "firstName": "Raj",
+            "lastName": "Kulkarni",
+            "email": "rajk123@gmail.com",
+            "message": "Dynamic data generation in forms"
+        },
+        {
+            "index": 5,
+            "testId": "test_6",
+            "testName": "form submission with random user",
+            "firstName": "Neha",
+            "lastName": "Joshi",
+            "email": "neha.j@gmail.com",
+            "message": "This form has dynamic fields"
+        },
+        {
+            "index": 6,
+            "testId": "test_7",
+            "testName": "new data validation",
+            "firstName": "Aakash",
+            "lastName": "Jadhav",
+            "email": "aakash@test.com",
+            "message": "Testing user data validation"
+        },
+        {
+            "index": 7,
+            "testId": "test_8",
+            "testName": "dynamic email test",
+            "firstName": "Pooja",
+            "lastName": "Rane",
+            "email": "pooja.rane@gmail.com",
+            "message": "Checking email generation"
+        },
+        {
+            "index": 8,
+            "testId": "test_9",
+            "testName": "auto fill dynamic profile",
+            "firstName": "Kunal",
+            "lastName": "Shinde",
+            "email": "kunal123@gmail.com",
+            "message": "Dynamic profile autofill test"
+        },
+        {
+            "index": 9,
+            "testId": "test_10",
+            "testName": "test faker integration",
+            "firstName": "Mansi",
+            "lastName": "More",
+            "email": "mansi_more@test.com",
+            "message": "Fake data injected in tests"
+        },
+        {
+            "index": 10,
+            "testId": "test_11",
+            "testName": "run tests with mock data",
+            "firstName": "Sameer",
+            "lastName": "Phadke",
+            "email": "sameer.p@gmail.com",
+            "message": "Running test with mocked inputs"
+        },
+        {
+            "index": 11,
+            "testId": "test_12",
+            "testName": "verify test with synthetic data",
+            "firstName": "Rutuja",
+            "lastName": "Sawant",
+            "email": "rutuja_sawant@gmail.com",
+            "message": "Synthetic data test passed"
+        },
+        {
+            "index": 12,
+            "testId": "test_13",
+            "testName": "validate data randomness",
+            "firstName": "Pranav",
+            "lastName": "Gadre",
+            "email": "pranav.g@gmail.com",
+            "message": "Randomized test data works"
+        },
+        {
+            "index": 13,
+            "testId": "test_14",
+            "testName": "profile data with dynamic test",
+            "firstName": "Tanvi",
+            "lastName": "Naik",
+            "email": "tanvinaik@test.com",
+            "message": "Profile updated with dynamic fields"
+        },
+        {
+            "index": 14,
+            "testId": "test_15",
+            "testName": "generate dynamic records",
+            "firstName": "Harshad",
+            "lastName": "Bhosale",
+            "email": "harshad.b@gmail.com",
+            "message": "Created new test record dynamically"
+        },
+        {
+            "index": 15,
+            "testId": "test_16",
+            "testName": "create multiple test users",
+            "firstName": "Isha",
+            "lastName": "Dhavale",
+            "email": "isha.dh@gmail.com",
+            "message": "User data is randomly assigned"
+        },
+        {
+            "index": 16,
+            "testId": "test_17",
+            "testName": "check unique emails",
+            "firstName": "Manoj",
+            "lastName": "Bharat",
+            "email": "manojb123@test.com",
+            "message": "Email uniqueness verified"
+        },
+        {
+            "index": 17,
+            "testId": "test_18",
+            "testName": "fake form entries",
+            "firstName": "Riya",
+            "lastName": "Chavan",
+            "email": "riya.chavan@gmail.com",
+            "message": "Form entries are dynamically created"
+        },
+        {
+            "index": 18,
+            "testId": "test_19",
+            "testName": "mass user generation test",
+            "firstName": "Shubham",
+            "lastName": "Gokhale",
+            "email": "shubhamg@testmail.com",
+            "message": "Multiple users created successfully"
+        },
+        {
+            "index": 19,
+            "testId": "test_20",
+            "testName": "check user ID generation",
+            "firstName": "Komal",
+            "lastName": "Tambe",
+            "email": "komaltambe@test.com",
+            "message": "User ID dynamically generated"
+        },
+        {
+            "index": 20,
+            "testId": "test_21",
+            "testName": "verify test case isolation",
+            "firstName": "Yash",
+            "lastName": "Karve",
+            "email": "yash.karve@gmail.com",
+            "message": "Test case runs with isolated data"
+        }
+    ]
+}

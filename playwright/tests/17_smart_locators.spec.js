@@ -4,6 +4,8 @@ const { test, expect } = require("@playwright/test")
 //getbyAlText() --> gets the elements by alt value
 //getbyLabel   --> gets the elements by label value
 //getByPlaceholder --> give elements by palceholder -->{used only in case input box }
+//getbyrole ()--->  give elements by palceholder -->{used only in case button/input box }
+//getbytitle --> give tab by title
 
 test("smart locators getbyAlText()", async ({ page }) => {
 
@@ -14,8 +16,6 @@ test("smart locators getbyAlText()", async ({ page }) => {
     await expect(ele).toBeVisible()
 })
 
-
-
 test("verify getbyLabel",async({page})=>{
  await page.goto('https://letcode.in/test/#_vignette')
  let el = await page.getByLabel('main navigation')
@@ -23,7 +23,6 @@ test("verify getbyLabel",async({page})=>{
 
 
 })
-
 
 test("verify get by placeholder",async({page})=>{
 
@@ -39,6 +38,33 @@ test("verify getby text",async({page})=>{
     await expect(text).toBeVisible()
 })
 
+//getbyrole
+
+test("verify getbyrole()",async({page})=>{
+
+await page.goto('https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html')
+await page.getByRole("checkbox",{name:"Option 1"}).check()
+
+await expect(page.getByRole("checkbox",{name:"Option 1"})).toBeChecked()
+
+//example 
+
+await page.getByRole("radio").nth(2).check()
+
+})
+
+
+// get by title 
+
+test("verify getbytitle",async({page})=>{
+    await page.goto('https://letcode.in/test/#_vignette')
+
+    await page.waitForTimeout(4000)
+    let el = await page.getByTitle('Workspace | LetCode with Koushik')
+    await expect(el).toBeVisible()
+   
+   
+   })
 
 
 

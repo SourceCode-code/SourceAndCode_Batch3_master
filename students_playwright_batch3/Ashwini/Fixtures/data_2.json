@@ -1,0 +1,22 @@
+{
+    "testdata": [
+        {
+            "index": 0,
+            "testId": "test_1",
+            "testName": "verify the basic of creating a dynamic data for  testcases in playwright",
+            "firstName": "Ashwini",
+            "lastName": "Kadam",
+            "email": "demo123@gmail.com",
+            "message": "This is a  dynamic data test message"
+        },
+        {
+            "index": 1,
+            "testId": "test_2",
+            "testName": "verify the basic of creating a dynamic data for  testcases in playwright",
+            "firstName": "Aadhya",
+            "lastName": "Kadam",
+            "email": "demo123@gmail.com",
+            "message": "This is a  dynamic data test message"
+        }
+    ]
+}

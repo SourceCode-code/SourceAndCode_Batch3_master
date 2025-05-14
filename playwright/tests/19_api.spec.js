@@ -51,3 +51,55 @@
 
 // when you test single api --> api request
 // multiple apis (cllection api )--> collection 
+
+// url -->
+// base url                                               path paramter
+//https://opensource-demo.orangehrmlive.com        /web/index.php/auth/login
+//base url                                           query parameter
+//  https://reqres.in                           /api/users?page=2
+
+const { test, expect, request } = require("@playwright/test")
+
+
+test("verify the get api ", async ({ request }) => {
+
+    let req = await request.get("https://reqres.in/api/users?page=2")
+
+    console.log(await req.status()) //200
+    console.log(await req.json()) // convert response into json
+
+    let response = await req.json()
+
+
+    expect(req.status()).toBe(200)
+
+    expect(response.per_page).toBe(6)
+
+
+    //
+    expect(response.data[3].first_name).toEqual("Byron")
+
+
+})
+
+test("verify post api ", async ({ request }) => {
+
+    let req = await request.post("https://reqres.in/api/users", {
+        data: {
+            "name": "Vaibhav",
+            "job": "leader"
+        }, headers: {
+            "x-api-key": "reqres-free-v1"
+        }
+    })
+
+    let response = await req.json()
+    console.log(req.status()) //201
+    console.log(response)
+    expect(req.status()).toBe(201)
+
+    expect(response.name).toEqual("Vaibhav")
+
+
+
+})

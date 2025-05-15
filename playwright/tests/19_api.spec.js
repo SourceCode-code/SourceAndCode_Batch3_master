@@ -59,6 +59,7 @@
 //  https://reqres.in                           /api/users?page=2
 
 const { test, expect, request } = require("@playwright/test")
+const exp = require("constants")
 
 
 test("verify the get api ", async ({ request }) => {
@@ -99,7 +100,51 @@ test("verify post api ", async ({ request }) => {
     expect(req.status()).toBe(201)
 
     expect(response.name).toEqual("Vaibhav")
+})
 
 
+//put 
+test("verify put request", async ({ request }) => {
+    let req = await request.put('https://reqres.in/api/users/2', {
+        data: {
+            "name": "Vaibhav",
+            "job": "software engineer"
+        }, headers: {
+            "x-api-key": "reqres-free-v1"
+        }
+    })
+
+    expect(req.status()).toBe(200)
+
+    let response = await req.json()
+
+    console.log(response)
+
+    expect(response.name).toEqual("Vaibhav")
+})
+
+
+
+
+//delete
+test("verify delete request", async ({ request }) => {
+    let req = await request.delete('https://reqres.in/api/users/2',{headers: {
+            "x-api-key": "reqres-free-v1"
+        }})
+
+    expect(req.status()).toBe(204)
+
+
+   
 
 })
+
+
+
+//assignment
+
+
+// api --
+//ui --
+
+//mixture hybrid  -->Ui +api 

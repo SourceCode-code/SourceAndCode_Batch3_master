@@ -13,9 +13,9 @@ test("Verify get request", async ({ request }) => {
 
     expect(req.status()).toBe(200)
 
-    expect(response.per_page()).toBe(6)
+    expect(response.per_page).toBe(6)
 
-    expect(response.data[0].first_name).toEqual("Lindsay")
+    expect(response.data[0].first_name).toEqual("Michael")
 
 })
 

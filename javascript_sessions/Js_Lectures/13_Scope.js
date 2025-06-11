@@ -59,3 +59,12 @@ function printy1(){
 }
 
 printy1()
+
+
+
+let abc = 0 
+
+
+abc = 20
+
+abc = 20

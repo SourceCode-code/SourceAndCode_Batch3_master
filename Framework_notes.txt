@@ -1,0 +1,37 @@
+testing tools --> 
+cypress
+selenium 
+playwright 
+
+//-------------------------
+
+BDD -- behaviour driven development -->5%
+Mocha framework(page object model )(POM) --> 95 %
+
+even with different tool the code or syntax is different --> but the way of writing is always same
+
+there are 2 ways to write your codes
+
+1 BDD -- gherain syntax 
+2 POM -- 
+
+// your framework must consist for following things 
+
+// 1 your framework should be easy to understand even to non tech person 
+// 2 your framework dynamic 
+// 3 you should be able to make the change in framework easily without distrubing other testcases 
+// 4 your framework must be easy to share and meet all the secruity requirment 
+
+
+// Folder Structure 
+
+TestData --> to save testdata in json
+test --> to save the testcases 
+config --> to save your configuration (setting)
+support --> to save supporting files and folders 
+pageObjects -->this is a folder which conatins all the method and function selector
+pacakage.json --> use to store the depency 
+pacakage.lock.json--> use to lock the depency 
+
+
+
